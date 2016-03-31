@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  data:
+    build: .
+    container_name: data
+    volumes:
+      - ./db.json:/srv/apps/db.json
+    ports:
+      - 3000:3000
