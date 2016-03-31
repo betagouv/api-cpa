@@ -1,0 +1,127 @@
+swagger: '2.0'
+info:
+  title: API Compte personnel d'activité
+  description: "Récupération des données du salarié : formation, retraite, chomage"
+  version: 0.0.1
+basePath: /api
+schemes:
+  - http
+  - https
+produces:
+  - application/json
+paths:
+  /cpa/{nir}/chomage:
+    get:
+      summary: Récupération des cotisations chomage d'un salarié
+      parameters:
+        - name: nir
+          in: path
+          description: numéro de securité sociale
+          required: true
+          type: number
+          format: integer
+          minimum: 99999999999999
+          maximum: 1000000000000000
+      tags:
+        - CPA
+      responses:
+        '200':
+          description: cotisation chomage
+          schema:
+            $ref: '#/definitions/Chomage'
+        '404':
+          description: 'Le Nir ne correspond à personne'
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+
+  /cpa/{nir}/retraite:
+    get:
+      summary: Récupération des cotisations aurpès de la retraite d'un salarié
+      parameters:
+        - name: nir
+          in: path
+          description: numéro de securité sociale
+          required: true
+          type: number
+          format: integer
+          minimum: 99999999999999
+          maximum: 1000000000000000
+      tags:
+        - CPA
+      responses:
+        '200':
+          description: cotisation retraite
+          schema:
+            $ref: '#/definitions/Retraite'
+        '404':
+          description: 'Le Nir ne correspond à personne'
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /cpa/{nir}/formation:
+    get:
+      summary: Récupération des crédits formation d'un salarié
+      parameters:
+        - name: nir
+          in: path
+          description: numéro de securité sociale
+          required: true
+          type: number
+          format: integer
+          minimum: 99999999999999
+          maximum: 1000000000000000
+      tags:
+        - CPA
+      responses:
+        '200':
+          description: crédit formation
+          schema:
+            $ref: '#/definitions/Formation'
+        '404':
+          description: 'Le Nir ne correspond à personne'
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+
+
+definitions:
+  Chomage:
+    type: object
+    properties:
+      id:
+        type: string
+        description: NIR
+      data:
+        type: string
+
+  Retraite:
+    type: object
+    properties:
+      id:
+        type: string
+        description: NIR
+      data:
+        type: string
+
+  Formation:
+    type: object
+    properties:
+      id:
+        type: string
+        description: NIR
+      data:
+        type: string
+
+
+  Error:
+    type: object
