@@ -1,0 +1,5 @@
+{
+  "/api/": "/",
+  "/cpa/": "/",
+  "/:id/:resource/": "/:resource/:id"
+}
