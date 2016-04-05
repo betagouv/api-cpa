@@ -1,0 +1,9 @@
+{
+  "appname": "cpa-api",
+  "port": 3004,
+  "log": {
+    "level": "debug",
+    "format": "simple"
+  },
+  "dataHost": "localhost:3000"
+}

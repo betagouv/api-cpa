@@ -1,0 +1,35 @@
+{
+  "name": "cpa-api",
+  "version": "0.1.0",
+  "description": "API du compte personnel d'activité",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "npm install",
+    "lint": "eslint **.js",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgmap/api-cpa.git"
+  },
+  "author": "thibaut.gery@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sgmap/api-cpa/issues"
+  },
+  "homepage": "https://github.com/sgmap/api-cpa#readme",
+  "dependencies": {
+    "bunyan": "1.8.0",
+    "bunyan-blackhole": "1.1.0",
+    "bunyan-format": "0.2.1",
+    "cors": "2.7.1",
+    "express": "4.13.4",
+    "express-bunyan-logger": "1.2.0",
+    "http-measuring-client": "0.3.6",
+    "lodash": "4.8.2",
+    "nconf": "0.8.4",
+    "request": "2.70.0",
+    "standard-error": "1.1.0"
+  }
+}
