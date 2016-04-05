@@ -1,5 +1,9 @@
 version: '2'
 
+networks:
+  cpa_network:
+    driver: bridge
+
 services:
   data:
     build: data
@@ -8,3 +12,15 @@ services:
       - ./data/db.json:/srv/apps/db.json
     ports:
       - 3000:3000
+    networks:
+      - cpa_network
+
+  nginx:
+    build: nginx
+    container_name: nginx
+    ports:
+      - 8080:80
+    depends_on:
+      - data
+    networks:
+      - cpa_network
