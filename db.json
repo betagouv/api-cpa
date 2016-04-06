@@ -3,8 +3,8 @@
       {
          "id":123456789012345,
          "identification":{
-            "nom":"STRING",
-            "prenom":"STRING",
+            "nom":"Eric",
+            "prenom":"Mercier",
             "datenaissance":"STRING",
             "genre":"STRING",
             "villenaissance":"STRING",
@@ -113,6 +113,7 @@
             "paysorigin":"STRING"
          },
          "compteheure":{
+	    "solde":"STRING"
             "credits":[
                {
                   "valeur":"STRING",
