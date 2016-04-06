@@ -30,6 +30,7 @@
     "lodash": "4.8.2",
     "nconf": "0.8.4",
     "request": "2.70.0",
-    "standard-error": "1.1.0"
+    "standard-error": "1.1.0",
+    "string": "3.3.1"
   }
 }

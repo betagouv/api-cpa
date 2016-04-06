@@ -6,6 +6,8 @@ const StandardError = require('standard-error');
 const emptylogger = require('bunyan-blackhole');
 const expressBunyanLogger = require("express-bunyan-logger");
 const cors = require('cors');
+const S = require('string');
+const routes = require('./routes');
 
 module.exports = Server;
 
@@ -39,6 +41,8 @@ function Server (options) {
   })
 
   app.use(express.static('public'));
+
+  routes.configure(app, options);
 
   app.use(function notFound(req, res, next) {
     next(new StandardError('no route for URL ' + req.url, {code: 404}));
