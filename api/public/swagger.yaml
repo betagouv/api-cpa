@@ -245,12 +245,17 @@ paths:
           type: string
         - name: birthplace
           in: query
-          description: le code INSEE du lieu de naissance (ou une chaîne vide si la personne est née à l'étranger)
+          description: le code INSEE du lieu de naissance (ou une chaîne vide si la personne est née à l'étranger) http://www.insee.fr/fr/methodes/nomenclatures/cog/
           required: true
           type: string
         - name: birthdepartment
           in: query
-          description: le code INSEE du pays de naissance
+          description: le code INSEE du departement de naissance  http://www.insee.fr/fr/methodes/nomenclatures/cog/
+          required: true
+          type: string
+        - name: birthcountry
+          in: query
+          description: le code INSEE du pays de naissance  http://www.insee.fr/fr/methodes/nomenclatures/cog/
           required: true
           type: string
 
@@ -296,12 +301,17 @@ paths:
           type: string
         - name: birthplace
           in: query
-          description: le code INSEE du lieu de naissance (ou une chaîne vide si la personne est née à l'étranger)
+          description: le code INSEE du lieu de naissance (ou une chaîne vide si la personne est née à l'étranger) http://www.insee.fr/fr/methodes/nomenclatures/cog/
           required: true
           type: string
         - name: birthdepartment
           in: query
-          description: le code INSEE du pays de naissance
+          description: le code INSEE du departement de naissance  http://www.insee.fr/fr/methodes/nomenclatures/cog/
+          required: true
+          type: string
+        - name: birthcountry
+          in: query
+          description: le code INSEE du pays de naissance  http://www.insee.fr/fr/methodes/nomenclatures/cog/
           required: true
           type: string
       tags:
@@ -345,12 +355,17 @@ paths:
           type: string
         - name: birthplace
           in: query
-          description: le code INSEE du lieu de naissance (ou une chaîne vide si la personne est née à l'étranger)
+          description: le code INSEE du lieu de naissance (ou une chaîne vide si la personne est née à l'étranger) http://www.insee.fr/fr/methodes/nomenclatures/cog/
           required: true
           type: string
         - name: birthdepartment
           in: query
-          description: le code INSEE du pays de naissance
+          description: le code INSEE du departement de naissance  http://www.insee.fr/fr/methodes/nomenclatures/cog/
+          required: true
+          type: string
+        - name: birthcountry
+          in: query
+          description: le code INSEE du pays de naissance  http://www.insee.fr/fr/methodes/nomenclatures/cog/
           required: true
           type: string
       tags:
@@ -395,12 +410,17 @@ paths:
           type: string
         - name: birthplace
           in: query
-          description: le code INSEE du lieu de naissance (ou une chaîne vide si la personne est née à l'étranger)
+          description: le code INSEE du lieu de naissance (ou une chaîne vide si la personne est née à l'étranger) http://www.insee.fr/fr/methodes/nomenclatures/cog/
           required: true
           type: string
         - name: birthdepartment
           in: query
-          description: le code INSEE du pays de naissance
+          description: le code INSEE du departement de naissance  http://www.insee.fr/fr/methodes/nomenclatures/cog/
+          required: true
+          type: string
+        - name: birthcountry
+          in: query
+          description: le code INSEE du pays de naissance  http://www.insee.fr/fr/methodes/nomenclatures/cog/
           required: true
           type: string
       tags:
