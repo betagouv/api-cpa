@@ -293,6 +293,9 @@ definitions:
         description: NIR
       identite:
         $ref: '#/definitions/identitepivot'
+      solde:
+        type: string
+        description: solde
       compteheure:
         type: object
         properties:
