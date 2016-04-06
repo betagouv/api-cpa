@@ -168,6 +168,156 @@ paths:
             $ref: '#/definitions/Error'
 
 
+  /identitepivot/chomage:
+    get:
+      summary: Récupération des cotisations chomage d'un salarié
+      parameters:
+        - name: given_name
+          in: query
+          description: prénoms séparés par des espaces
+          required: true
+          type: string
+        - name: family_name
+          in: query
+          description: le nom de famille de naissance
+          required: true
+          type: string
+        - name: birthdate
+          in: query
+          description: la date de naissance au format YYYY-MM-DD
+          required: true
+          type: string
+        - name: gender
+          in: query
+          description: male pour les hommes, female pour les femmes
+          required: true
+          type: string
+        - name: birthplace
+          in: query
+          description: le code INSEE du lieu de naissance (ou une chaîne vide si la personne est née à l'étranger)
+          required: true
+          type: string
+        - name: birthdepartment
+          in: query
+          description: le code INSEE du pays de naissance
+          required: true
+          type: string
+
+      tags:
+        - Avec l'identité pivot
+      responses:
+        '200':
+          description: cotisation chomage
+          schema:
+            $ref: '#/definitions/Chomage'
+        '404':
+          description: 'Le Nir ne correspond à personne'
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+
+  /identitepivot/retraite:
+    get:
+      summary: Récupération des cotisations aurpès de la retraite d'un salarié
+      parameters:
+        - name: given_name
+          in: query
+          description: prénoms séparés par des espaces
+          required: true
+          type: string
+        - name: family_name
+          in: query
+          description: le nom de famille de naissance
+          required: true
+          type: string
+        - name: birthdate
+          in: query
+          description: la date de naissance au format YYYY-MM-DD
+          required: true
+          type: string
+        - name: gender
+          in: query
+          description: male pour les hommes, female pour les femmes
+          required: true
+          type: string
+        - name: birthplace
+          in: query
+          description: le code INSEE du lieu de naissance (ou une chaîne vide si la personne est née à l'étranger)
+          required: true
+          type: string
+        - name: birthdepartment
+          in: query
+          description: le code INSEE du pays de naissance
+          required: true
+          type: string
+      tags:
+        - Avec l'identité pivot
+      responses:
+        '200':
+          description: cotisation retraite
+          schema:
+            $ref: '#/definitions/Retraite'
+        '404':
+          description: 'Le Nir ne correspond à personne'
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /identitepivot/formation:
+    get:
+      summary: Récupération des crédits formation d'un salarié
+      parameters:
+        - name: given_name
+          in: query
+          description: prénoms séparés par des espaces
+          required: true
+          type: string
+        - name: family_name
+          in: query
+          description: le nom de famille de naissance
+          required: true
+          type: string
+        - name: birthdate
+          in: query
+          description: la date de naissance au format YYYY-MM-DD
+          required: true
+          type: string
+        - name: gender
+          in: query
+          description: male pour les hommes, female pour les femmes
+          required: true
+          type: string
+        - name: birthplace
+          in: query
+          description: le code INSEE du lieu de naissance (ou une chaîne vide si la personne est née à l'étranger)
+          required: true
+          type: string
+        - name: birthdepartment
+          in: query
+          description: le code INSEE du pays de naissance
+          required: true
+          type: string
+      tags:
+        - Avec l'identité pivot
+      responses:
+        '200':
+          description: crédit formation
+          schema:
+            $ref: '#/definitions/Formation'
+        '404':
+          description: 'Le Nir ne correspond à personne'
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+
 definitions:
   identitepivot:
     type: object
