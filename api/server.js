@@ -40,7 +40,7 @@ function Server (options) {
     next();
   })
 
-  app.use(express.static('public'));
+  app.use(express.static(__dirname + '/public'));
 
   routes.configure(app, options);
 
