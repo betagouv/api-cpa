@@ -9,6 +9,4 @@ RUN npm install --production
 
 ADD ./ /srv/apps
 
-EXPOSE 3000
-
 CMD npm start
