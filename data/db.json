@@ -7,9 +7,9 @@
             "family_name":"Mercier",
             "gender":"male",
             "birthplace":"49007",
-	    "birthdepartment": "66",
-            "birthcountry": "99100",
-	    "birthdate": "1981-04-21"
+            "birthdepartment":"66",
+            "birthcountry":"99100",
+            "birthdate":"1981-04-21"
          },
          "emplois":[
             {
@@ -49,9 +49,9 @@
             "family_name":"Mercier",
             "gender":"male",
             "birthplace":"49007",
-	    "birthdepartment": "66",
-            "birthcountry": "99100",
-	    "birthdate": "1981-04-21"
+            "birthdepartment":"66",
+            "birthcountry":"99100",
+            "birthdate":"1981-04-21"
          },
          "retraitedebase":{
             "trimestrestotal":"STRING",
@@ -95,9 +95,9 @@
                            "employeur":"STRING",
                            "salaireannuel":"STRING",
                            "trimestres":"STRING"
-                      }
-                   }
-                 ]
+                        }
+                     }
+                  ]
                }
             ]
          }
@@ -111,12 +111,12 @@
             "family_name":"Mercier",
             "gender":"male",
             "birthplace":"49007",
-	    "birthdepartment": "66",
-            "birthcountry": "99100",
-	    "birthdate": "1981-04-21"
+            "birthdepartment":"66",
+            "birthcountry":"99100",
+            "birthdate":"1981-04-21"
          },
          "compteheure":{
-	    "solde":"STRING",
+            "solde":"STRING",
             "credits":[
                {
                   "valeur":"STRING",
@@ -143,6 +143,42 @@
                         "STRING"
                      ]
                   }
+               }
+            ]
+         }
+      }
+   ],
+   "penibilite":[
+      {
+         "id":123456789012345,
+         "identification":{
+            "given_name":"Eric",
+            "family_name":"Mercier",
+            "gender":"male",
+            "birthplace":"49007",
+            "birthdepartment":"66",
+            "birthcountry":"99100",
+            "birthdate":"1981-04-21"
+         },
+         "comptepoints":{
+            "solde":"STRING",
+            "credits":[
+               {
+                  "valeur":"STRING",
+                  "date":"STRING",
+                  "debut":"STRING",
+                  "fin":"STRING",
+                  "entreprise":{
+                     "nom":"STRING",
+                     "siret":"STRING"
+                  }
+               }
+            ],
+            "debits":[
+               {
+                  "date":"STRING",
+                  "satus":"STRING",
+                  "destinataire":"STRING"
                }
             ]
          }
