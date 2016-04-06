@@ -31,7 +31,7 @@
                         "date":"STRING",
                         "debut":"STRING",
                         "fin":"STRING",
-                        "heuretravaillé":"STRING",
+                        "heurestravailles":"STRING",
                         "salairebrut":"STRING",
                         "precomptepoleemploi":"STRING"
                      }
@@ -116,7 +116,7 @@
 	    "birthdate": "1981-04-21"
          },
          "compteheure":{
-	    "solde":"STRING"
+	    "solde":"STRING",
             "credits":[
                {
                   "valeur":"STRING",
