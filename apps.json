@@ -1,0 +1,16 @@
+{
+  "apps": [{
+    "name": "api-cpa-data",
+    "script": "./data/node_modules/.bin/json-server",
+    "log_date_format": "YYYY-MM-DD HH:mm:ss",
+    "args": "--watch ./data/db.json",
+    "watch": "./data"
+  },
+  {
+    "name": "api-cpa-api",
+    "script": "api/bin/www",
+    "log_date_format": "YYYY-MM-DD HH:mm:ss",
+    "watch": "./api"
+  }
+]
+}
