@@ -23,7 +23,7 @@ paths:
           minimum: 99999999999999
           maximum: 1000000000000000
       tags:
-        - CPA
+        - Avec le NIR
       responses:
         '200':
           description: cotisation chomage
@@ -51,7 +51,7 @@ paths:
           minimum: 99999999999999
           maximum: 1000000000000000
       tags:
-        - CPA
+        - Avec le NIR
       responses:
         '200':
           description: cotisation retraite
@@ -78,7 +78,81 @@ paths:
           minimum: 99999999999999
           maximum: 1000000000000000
       tags:
-        - CPA
+        - Avec le NIR
+      responses:
+        '200':
+          description: crédit formation
+          schema:
+            $ref: '#/definitions/Formation'
+        '404':
+          description: 'Le Nir ne correspond à personne'
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+
+  /fp/chomage:
+    get:
+      summary: Récupération des cotisations chomage d'un salarié
+      parameters:
+        - name: token
+          in: query
+          description: token d'accès France Connect
+          required: true
+          type: string
+      tags:
+        - Avec FranceConnect
+      responses:
+        '200':
+          description: cotisation chomage
+          schema:
+            $ref: '#/definitions/Chomage'
+        '404':
+          description: 'Le Nir ne correspond à personne'
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+
+  /fp/retraite:
+    get:
+      summary: Récupération des cotisations aurpès de la retraite d'un salarié
+      parameters:
+        - name: token
+          in: query
+          description: token d'accès France Connect
+          required: true
+          type: string
+      tags:
+        - Avec FranceConnect
+      responses:
+        '200':
+          description: cotisation retraite
+          schema:
+            $ref: '#/definitions/Retraite'
+        '404':
+          description: 'Le Nir ne correspond à personne'
+          schema:
+            $ref: '#/definitions/Error'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+  /fp/formation:
+    get:
+      summary: Récupération des crédits formation d'un salarié
+      parameters:
+        - name: token
+          in: query
+          description: token d'accès France Connect
+          required: true
+          type: string
+      tags:
+        - Avec FranceConnect
       responses:
         '200':
           description: crédit formation
@@ -110,9 +184,9 @@ definitions:
       gender:
         type: string
         description: male ou Female
-      birthdepartment:
-	type: string
-        description: departement de naissance
+      birthdepartement:
+        type: string
+        description: Departement de naissance
       birthplace:
         type: string
         description: ville de naissance
