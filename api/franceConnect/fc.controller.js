@@ -17,6 +17,8 @@ function FcController(options) {
 
   this.getFormation = get("formation", "CPA_formation")
 
+  this.getPenibilite = get("penibilite", "CPA_penibilite")
+
   function get(name, scope) {
     return function(req, res, next) {
       request

@@ -10,6 +10,7 @@ module.exports = function(options){
   router.get('/chomage', fcController.getChomage);
   router.get('/retraite', fcController.getRetraite);
   router.get('/formation', fcController.getFormation);
+  router.get('/penibilite', fcController.getPenibilite);
 
   return router
 }

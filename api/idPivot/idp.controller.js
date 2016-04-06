@@ -17,6 +17,8 @@ function IdpController(options) {
 
   this.getFormation = get("formation")
 
+  this.getPenibilite = get("penibilite")
+
   function get(name, scope) {
     return function(req, res, next) {
       if( !req.query.given_name ||

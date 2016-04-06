@@ -10,6 +10,7 @@ module.exports = function(options){
   router.get('/:nir/chomage', nirController.getChomage);
   router.get('/:nir/retraite', nirController.getRetraite);
   router.get('/:nir/formation', nirController.getFormation);
+  router.get('/:nir/penibilite', nirController.getPenibilite);
 
   return router
 }

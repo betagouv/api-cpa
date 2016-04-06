@@ -34,6 +34,15 @@ function NirController(options) {
       .pipe(res)
   }
 
+  this.getPenibilite = function(req, res, next) {
+    get("penibilite", req.params.nir)
+      .on('error', function(err) {
+        logger.err(err)
+        next(err)
+      })
+      .pipe(res)
+  }
+
    function get(name, nir, res, next) {
     return request
       .get(options.dataHost + '/' + name + '/' + nir)
