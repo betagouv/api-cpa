@@ -25,14 +25,3 @@ services:
       - cpa_network
     environment:
       dataHost: http://data:3000
-
-  nginx:
-    build: nginx
-    container_name: nginx
-    ports:
-      - 8080:80
-    depends_on:
-      - data
-      - api
-    networks:
-      - cpa_network
