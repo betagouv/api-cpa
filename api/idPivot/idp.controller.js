@@ -1,5 +1,8 @@
+'use strict';
+
 const request = require('request')
 const StandardError = require('standard-error');
+const _ = require('lodash')
 
 module.exports = IdpController;
 
@@ -36,12 +39,29 @@ function IdpController(options) {
             'identity.birthdepartment': req.query.birthdepartment,
             'identity.birthcountry': req.query.birthcountry
           }
+        }, (err, response, body) => {
+          if(err) {
+            logger.error(err);
+            next(new StandardError("An error as occured", { code: 500 }))
+          }
+          let data = JSON.parse(body)
+          data = _.filter(data, function(item)  {
+            return item.identification.given_name === req.query.given_name &&
+            item.identification.family_name === req.query.family_name &&
+            item.identification.birthdate === req.query.birthdate &&
+            item.identification.gender === req.query.gender &&
+            item.identification.birthplace === req.query.birthplace &&
+            item.identification.birthdepartment === req.query.birthdepartment &&
+            item.identification.birthcountry === req.query.birthcountry
+          })
+          if(data.length === 0) {
+            return next(new StandardError( name + "not found ", { code: 404 }))
+          }
+          if(data.length > 1) {
+            return next(new StandardError("join failed", { code: 500 }))
+          }
+          return res.json(data[0])
         })
-        .on('error', function(err) {
-          logger.err(err)
-          next(err)
-        })
-        .pipe(res)
 
     }
   }

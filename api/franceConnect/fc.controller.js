@@ -1,5 +1,8 @@
+'use strict';
+
 const request = require('request')
 const StandardError = require('standard-error');
+const _ = require('lodash')
 
 module.exports = FcController;
 
@@ -48,12 +51,30 @@ function FcController(options) {
                 'identity.birthdepartment': identity.birthdepartment,
                 'identity.birthcountry': identity.birthcountry
               }
+            }, (err, response, body) => {
+              if(err) {
+                logger.error(err);
+                next(new StandardError("An error as occured", { code: 500 }))
+              }
+              let data = JSON.parse(body)
+              //console.log('identity', identity)
+              data = _.filter(data, function(item)  {
+                return item.identification.given_name === identity.given_name &&
+                item.identification.family_name === identity.family_name &&
+                item.identification.birthdate === identity.birthdate &&
+                item.identification.gender === identity.gender &&
+                item.identification.birthplace === identity.birthplace &&
+                item.identification.birthdepartment === identity.birthdepartment &&
+                item.identification.birthcountry === identity.birthcountry
+              })
+              if(data.length === 0) {
+                return next(new StandardError( name + " not found ", { code: 404 }))
+              }
+              if(data.length > 1) {
+                return next(new StandardError("join failed", { code: 500 }))
+              }
+              return res.json(data[0])
             })
-            .on('error', function(err) {
-              logger.err(err)
-              next(err)
-            })
-            .pipe(res)
         })
     }
   }
