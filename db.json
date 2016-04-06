@@ -3,12 +3,13 @@
       {
          "id":123456789012345,
          "identification":{
-            "nom":"Eric",
-            "prenom":"Mercier",
-            "datenaissance":"STRING",
-            "genre":"STRING",
-            "villenaissance":"STRING",
-            "paysorigin":"STRING"
+            "given_name":"Eric",
+            "family_name":"Mercier",
+            "gender":"male",
+            "birthplace":"49007",
+	    "birthdepartment": "66",
+            "birthcountry": "99100",
+	    "birthdate": "1981-04-21"
          },
          "emplois":[
             {
@@ -44,12 +45,13 @@
       {
          "id":123456789012345,
          "identification":{
-            "nom":"STRING",
-            "prenom":"STRING",
-            "datenaissance":"STRING",
-            "genre":"STRING",
-            "villenaissance":"STRING",
-            "paysorigin":"STRING"
+            "given_name":"Eric",
+            "family_name":"Mercier",
+            "gender":"male",
+            "birthplace":"49007",
+	    "birthdepartment": "66",
+            "birthcountry": "99100",
+	    "birthdate": "1981-04-21"
          },
          "retraitedebase":{
             "trimestrestotal":"STRING",
@@ -93,9 +95,9 @@
                            "employeur":"STRING",
                            "salaireannuel":"STRING",
                            "trimestres":"STRING"
-                        }
-                     }
-                  ]
+                      }
+                   }
+                 ]
                }
             ]
          }
@@ -105,12 +107,13 @@
       {
          "id":123456789012345,
          "identification":{
-            "nom":"STRING",
-            "prenom":"STRING",
-            "datenaissance":"STRING",
-            "genre":"STRING",
-            "villenaissance":"STRING",
-            "paysorigin":"STRING"
+            "given_name":"Eric",
+            "family_name":"Mercier",
+            "gender":"male",
+            "birthplace":"49007",
+	    "birthdepartment": "66",
+            "birthcountry": "99100",
+	    "birthdate": "1981-04-21"
          },
          "compteheure":{
 	    "solde":"STRING"

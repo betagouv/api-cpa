@@ -98,24 +98,27 @@ definitions:
   identitepivot:
     type: object
     properties:
-      nom:
+      family_name:
         type: string
         description: nom de famille
-      prenom:
+      given_name:
         type: string
         description: prénom
-      datenaissance:
+      birthdate:
         type: string
         description: date de naissance (JJ/MM/YYYY)
-      genre:
+      gender:
         type: string
-        description: M ou F
-      villenaissance:
+        description: male ou Female
+      birthdepartment:
+	type: string
+        description: departement de naissance
+      birthplace:
         type: string
         description: ville de naissance
-      paysorigin:
+      birthcountry:
         type: string
-        description: pay d'origine
+        description: pays d'origine
 
   Chomage:
       type: object
