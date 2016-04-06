@@ -3,8 +3,7 @@
     "name": "api-cpa-data",
     "script": "./data/node_modules/.bin/json-server",
     "log_date_format": "YYYY-MM-DD HH:mm:ss",
-    "args": "--watch ./data/db.json",
-    "watch": "./data"
+    "args": "--watch ./data/db.json"
   },
   {
     "name": "api-cpa-api",
