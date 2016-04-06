@@ -95,23 +95,195 @@ paths:
 
 
 definitions:
-  Chomage:
+  identitepivot:
     type: object
     properties:
-      id:
+      nom:
         type: string
-        description: NIR
-      data:
+        description: nom de famille
+      prenom:
         type: string
+        description: prénom
+      datenaissance:
+        type: string
+        description: date de naissance (JJ/MM/YYYY)
+      genre:
+        type: string
+        description: M ou F
+      villenaissance:
+        type: string
+        description: ville de naissance
+      paysorigin:
+        type: string
+        description: pay d'origine
+
+  Chomage:
+      type: object
+      properties:
+        id:
+          type: string
+          description: NIR
+        identite:
+          $ref: '#/definitions/identitepivot'
+        emplois:
+          type: array
+          items:
+            type: object
+            properties:
+              employeur:
+                type: object
+                properties:
+                  nom:
+                    type: string
+                    description: nom de famille
+                  ville:
+                    type: string
+                    description: ville
+                  codepostal:
+                    type: string
+                    description: code postal
+                  siret:
+                    type: string
+                    description: siret
+                  ape:
+                    type: string
+                    description: APE/NAF
+              details:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    date:
+                      type: string
+                      description: date
+                    debut:
+                      type: string
+                      description: debut
+                    fin:
+                      type: string
+                      description: fin
+                    heuretravaillé:
+                      type: string
+                      description: nombres d'heures travaillé
+                    salairebrut:
+                      type: string
+                      description: salaire brut
+                    precomptepoleemploi:
+                      type: string
+                      description: precompte pole emploi
 
   Retraite:
-    type: object
-    properties:
-      id:
-        type: string
-        description: NIR
-      data:
-        type: string
+      type: object
+      properties:
+        id:
+          type: string
+          description: NIR
+        identite:
+          $ref: '#/definitions/identitepivot'
+        retraitedebase:
+          type: object
+          properties:
+            trimestrestotal:
+              type: string
+              description: trimestre total
+            pointtotal:
+              type: string
+              description: point total
+            regimes:
+              type: array
+              items:
+                type: object
+                properties:
+                  typeregime:
+                    type: string
+                    description: type de regime
+                  nombretrimestre:
+                    type: string
+                    description: nombre de trimestres
+                  derniereannee:
+                    type: string
+                    description: derniere annee
+                  points:
+                    type: string
+                    description: points
+                  details:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        annee:
+                          type: string
+                          description: annee
+                        debut:
+                          type: string
+                          description: debut
+                        fin:
+                          type: string
+                          description: fin
+                        specifiques:
+                          type: object
+                          properties:
+                            employeur:
+                              type: string
+                              description: employeur
+                            salaireannuel:
+                              type: string
+                              description: salaire annuel
+                            trimestres:
+                              type: string
+                              description: trimestres
+        retraitecomplementaire:
+          type: object
+          properties:
+            trimestrestotal:
+              type: string
+              description: trimestre total
+            pointtotal:
+              type: string
+              description: point total
+            regimes:
+              type: array
+              items:
+                type: object
+                properties:
+                  typeregime:
+                    type: string
+                    description: type de regime
+                  nombretrimestre:
+                    type: string
+                    description: nombre de trimestres
+                  derniereannee:
+                    type: string
+                    description: derniere annee
+                  points:
+                    type: string
+                    description: points
+                  details:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        annee:
+                          type: string
+                          description: annee
+                        debut:
+                          type: string
+                          description: debut
+                        fin:
+                          type: string
+                          description: fin
+                        specifiques:
+                          type: object
+                          properties:
+                            employeur:
+                              type: string
+                              description: employeur
+                            salaireannuel:
+                              type: string
+                              description: salaire annuel
+                            trimestres:
+                              type: string
+                              description: trimestres
 
   Formation:
     type: object
@@ -119,9 +291,66 @@ definitions:
       id:
         type: string
         description: NIR
-      data:
-        type: string
-
+      identite:
+        $ref: '#/definitions/identitepivot'
+      compteheure:
+        type: object
+        properties:
+          credits:
+            type: array
+            items:
+              type: object
+              properties:
+                valeur:
+                  type: string
+                  description: valeur
+                date:
+                  type: string
+                  description: date
+                debut:
+                  type: string
+                  description: debut
+                fin:
+                  type: string
+                  description: fin
+                entreprise:
+                  type: object
+                  properties:
+                    nom:
+                      type: string
+                      description: nom
+                    siret:
+                      type: string
+                      description: siret
+          debits:
+            type: array
+            items:
+              type: object
+              properties:
+                status:
+                  type: string
+                  description: status
+                date:
+                  type: string
+                  description: date
+                formation:
+                  type: object
+                  properties:
+                    nom:
+                      type: string
+                      description: nom
+                    id:
+                      type: string
+                      description: id
+                    editeur:
+                      type: string
+                      description: editeur
+                    niveau:
+                      type: string
+                      description: niveau
+                    ape:
+                      type: string
+                      description: ape
 
   Error:
     type: object
