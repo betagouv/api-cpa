@@ -93,7 +93,7 @@ paths:
           schema:
             $ref: '#/definitions/Error'
 
-  /fp/chomage:
+  /fc/chomage:
     get:
       summary: Récupération des cotisations chomage d'un salarié
       parameters:
@@ -118,7 +118,7 @@ paths:
           schema:
             $ref: '#/definitions/Error'
 
-  /fp/retraite:
+  /fc/retraite:
     get:
       summary: Récupération des cotisations aurpès de la retraite d'un salarié
       parameters:
@@ -142,7 +142,7 @@ paths:
           description: Unexpected error
           schema:
             $ref: '#/definitions/Error'
-  /fp/formation:
+  /fc/formation:
     get:
       summary: Récupération des crédits formation d'un salarié
       parameters:
