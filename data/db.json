@@ -619,7 +619,7 @@
                      },
                      {
                         "annee":1996,
-                        "debut":1996-01-01,
+                        "debut":"1996-01-01",
                         "fin":"1996-12-31",
                         "specifiques":{
                            "employeur":"Sycomore",
@@ -685,7 +685,7 @@
             "trimestrestotal":0,
             "pointtotal":0,
             "regimes":[
-              
+
             ]
          }
       },
