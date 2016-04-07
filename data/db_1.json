@@ -201,36 +201,333 @@
       },
       "retraitedebase":
       {
-        "trimestrestotal":"STRING",
-        "pointtotal":"STRING",
+        "trimestrestotal":"85",
+        "pointtotal":"206",
         "regimes":
         [
           {
-            "type":"STRING",
-            "nombretrimestre":"STRING",
-            "derniereannee":"STRING",
-            "points":"STRING",
+            "type":"Salarié du régime général de sécurité sociale (CNAV)",
+            "nombretrimestre":"81",
+            "derniereannee":"2015",
+            "points":"NULL",
+            "details":
+            [
+              {
+                "annee":"2015",
+                "debut":"01/01",
+                "fin":"15/01",
+                "specifiques":
+                {
+                   "employeur":"Octo - Technology",
+                   "salaireannuel":"1585",
+                   "trimestres":"1"
+                }
+              },
+              {
+                "annee":"2014",
+                "debut":"16/06",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Octo - Technology",
+                  "salaireannuel":"20339",
+                  "trimestres":"2"
+                }
+              },
+              {
+                "annee":"2014",
+                "debut":"13/03",
+                "fin":"06/06",
+                "specifiques":
+                {
+                  "employeur":"Adminext",
+                  "salaireannuel":"6675",
+                  "trimestres":"1"
+                }
+              },
+              {
+                "annee":"2014",
+                "debut":"01/01",
+                "fin":"20/02",
+                "specifiques":
+                {
+                  "employeur":"Islean Consulting",
+                  "salaireannuel":"5215",
+                  "trimestres":"1"
+                }
+              },
+              {
+                "annee":"2013",
+                "debut":"25/06",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Islean Consulting",
+                  "salaireannuel":"19133",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"2011",
+                "debut":"01/01",
+                "fin":"11/05",
+                "specifiques":
+                {
+                  "employeur":"Bred Banque Populaire",
+                  "salaireannuel":"12864",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"2010",
+                "debut":"13/09",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Bred Banque Populaire",
+                  "salaireannuel":"10386",
+                  "trimestres":"1"
+                }
+              },
+              {
+                "annee":"2010",
+                "debut":"01/01",
+                "fin":"01/09",
+                "specifiques":
+                {
+                  "employeur":"Octo - Technology",
+                  "salaireannuel":"18464",
+                  "trimestres":"3"
+                }
+              },
+              {
+                "annee":"2010",
+                "debut":"01/06",
+                "fin":"31/07",
+                "specifiques":
+                {
+                  "employeur":"Bred Banque Populaire",
+                  "salaireannuel":"3462",
+                  "trimestres":"0"
+                }
+              },
+              {
+                "annee":"2009",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Octo - Technology",
+                  "salaireannuel":"24586",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"2008",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Octo - Technology",
+                  "salaireannuel":"33276",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"2007",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Octo - Technology",
+                  "salaireannuel":"32568",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"2006",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Octo - Technology",
+                  "salaireannuel":"31068",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"2005",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Octo - Technology",
+                  "salaireannuel":"30192",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"2004",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Octo - Technology",
+                  "salaireannuel":"29712",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"2003",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Octo - Technology",
+                  "salaireannuel":"29184",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"2002",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Octo - Technology",
+                  "salaireannuel":"28224",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"2001",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Octo - Technology",
+                  "salaireannuel":"28000",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"2000",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Octo - Technology",
+                  "salaireannuel":"28000",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"1999",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Octo - Technology",
+                  "salaireannuel":"28000",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"1998",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Octo - Technology",
+                  "salaireannuel":"28000",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"1997",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Sycomore",
+                  "salaireannuel":"28000",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"1996",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Sycomore",
+                  "salaireannuel":"28000",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"1995",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Sycomore",
+                  "salaireannuel":"28000",
+                  "trimestres":"4"
+                }
+              },
+              {
+                "annee":"1994",
+                "debut":"01/01",
+                "fin":"31/12",
+                "specifiques":
+                {
+                  "employeur":"Schneider Electric Industries SAS",
+                  "salaireannuel":"3200",
+                  "trimestres":"4"
+                }
+              },
+            ]
+          },
+          {
+            "type":"CIPAV",
+            "nombretrimestre":"5",
+            "derniereannee":"2012",
+            "points":"206",
             "details":
             [
                {
-                  "annee":"STRING",
-                  "debut":"STRING",
-                  "fin":"STRING",
+                  "annee":"2012",
+                  "debut":"01/01",
+                  "fin":"31/12",
                   "specifiques":
                   {
-                     "employeur":"STRING",
-                     "salaireannuel":"STRING",
-                     "trimestres":"STRING"
+                     "employeur":"-",
+                     "salaireannuel":"-",
+                     "trimestres":"4",
+                     "points":"153.5"
                   }
                 }
+                {
+                   "annee":"2011",
+                   "debut":"01/07",
+                   "fin":"31/12",
+                   "specifiques":
+                   {
+                      "employeur":"-",
+                      "salaireannuel":"-",
+                      "trimestres":"1",
+                      "points":"52.5"
+                   }
+                 }
              ]
           }
         ]
       },
       "retraitecomplementaire":
       {
-        "trimestrestotal":"STRING",
-        "pointtotal":"STRING",
+        "trimestrestotal":"NULL",
+        "pointtotal":"39194.62",
         "regimes":
         [
           {
