@@ -3,7 +3,7 @@
       {
          "id":123456789012345,
          "identification":{
-            "given_name":"Erice",
+            "given_name":"Eric",
             "family_name":"Mercier",
             "gender":"male",
             "birthplace":"49007",
@@ -267,7 +267,6 @@
             "family_name":"Ramala",
             "gender":"female",
             "birthplace":"78490",
-            "birthdepartment":"78",
             "birthcountry":"99100",
             "birthdate":"1991-05-21"
          },
@@ -886,7 +885,7 @@
             "family_name":"Ramala",
             "gender":"female",
             "birthplace":"78490",
-            "birthdepartment":"78",
+            "birthdepartment":"",
             "birthcountry":"99100",
             "birthdate":"1991-05-21"
          },
