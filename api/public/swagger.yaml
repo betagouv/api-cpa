@@ -603,10 +603,10 @@ definitions:
           type: object
           properties:
             trimestrestotal:
-              type: string
+              type: number
               description: trimestre total
             pointtotal:
-              type: string
+              type: number
               description: point total
             regimes:
               type: array
