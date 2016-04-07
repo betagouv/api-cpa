@@ -70,7 +70,7 @@ function FcController(options) {
                 item.identification.birthcountry === identity.birthcountry
               })
               if(data.length === 0) {
-                return next(new StandardError( name + " not found ", { code: 404 }))
+                return next(new StandardError( name + " not found (" + JSON.stringify(identity) + ")", { code: 404 }))
               }
               if(data.length > 1) {
                 return next(new StandardError("join failed", { code: 500 }))
