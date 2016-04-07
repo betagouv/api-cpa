@@ -140,7 +140,7 @@
                      {
                         "annee":2015,
                         "debut":"2015-02-01",
-                        "fin":"2015-06-31",
+                        "fin":"2015-04-31",
                         "specifiques":{
                            "employeur":"PASCAL COSTE COIFFURE",
                            "salaireannuel":19000,
@@ -162,8 +162,7 @@
             ]
          },
          "retraitecomplementaire":{
-            "trimestrestotal":"STRING",
-            "pointtotal":"STRING",
+            "pointtotal":0,
             "regimes":[
 
             ]
