@@ -1881,11 +1881,13 @@
          }
       }
    ],
-   "listeformation":[
+   "liste_formations":[
       {
-         "codecpf":"string",
+         "code_cpf":"string",
          "organisme":"string",
-         "publicvisee":"string",
+         "public_vise":"string",
+	 "code_offreinfo":"string",
+	 "code_certifinfo":"string",
          "niveau":0
       }
    ]
