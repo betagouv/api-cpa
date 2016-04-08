@@ -439,6 +439,27 @@ paths:
           schema:
             $ref: '#/definitions/Error'
 
+  /formations:
+    get:
+      summary: Récupération de la liste des formations (qualifiantes uniquement pour le moment)
+      parameters:
+        - name: public_vise
+          in: query
+          description: "Permet de filtrer en fonction de l'élligibilité des formations pour un statut donné (D : demandeurs d’emploi, S : salariés, T : tous)"
+          required: false
+          type: string
+      tags:
+        - Données non identifiées
+      responses:
+        '200':
+          description: liste de formation
+          schema:
+            $ref: '#/definitions/ListeFormations'
+        default:
+          description: Unexpected error
+          schema:
+            $ref: '#/definitions/Error'
+
 definitions:
   identitepivot:
     type: object
@@ -791,6 +812,30 @@ definitions:
                     destinataire:
                       type: string
                       description: destinataire
+  ListeFormations:
+    type: array
+    items:
+      type: object
+      properties:
+        id:
+          type: string
+          description: Code CPF
+        organisme:
+          type: string
+          description: Organisme de formation
+        public_vise:
+          type: string
+          description: "D : demandeurs d’emploi, S : salariés, T : tous"
+        code_offreinfo:
+          type: string
+          description: Code OffreInfo (http://www.intercariforef.org)
+        code_certifinfo:
+          type: string
+          description: Code CertifInfo (http://www.certifinfo.org)
+        niveau:
+          type: integer
+          description: Niveau de qualification visé (à venir)
+
 
   Error:
     type: object
