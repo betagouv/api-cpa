@@ -1880,6 +1880,14 @@
             ]
          }
       }
+   ],
+   "listeformation":[
+      {
+         "codecpf":"string",
+         "organisme":"string",
+         "publicvisee":"string",
+         "niveau":0
+      }
    ]
 }
 
