@@ -5,7 +5,6 @@ info:
   version: 0.0.1
 basePath: /api
 schemes:
-  - http
   - https
 produces:
   - application/json
@@ -383,7 +382,7 @@ paths:
           description: Unexpected error
           schema:
             $ref: '#/definitions/Error'
-            
+
   /identitepivot/penibilite:
     get:
       summary: Récupération des crédits formation d'un salarié
@@ -441,7 +440,7 @@ paths:
 
 
 definitions:
-  
+
   identite:
     type: object
     properties:
@@ -465,7 +464,7 @@ definitions:
         description: ville de naissance
       birthcountry:
         type: string
-        description: pays d'origine  
+        description: pays d'origine
 
   Chomage:
       type: object
@@ -474,7 +473,7 @@ definitions:
           type: string
           description: NIR
         identite:
-          $ref: '#/definitions/identite' 
+          $ref: '#/definitions/identite'
         emplois:
           type: array
           items:
@@ -498,7 +497,7 @@ definitions:
                   ape:
                     type: string
                     description: APE/NAF
-              emploi: 
+              emploi:
                 type: object
                 properties:
                   horairehebdo:
@@ -506,7 +505,7 @@ definitions:
                     description: horraire hebdomadaire
                   type:
                     type: string
-                    description: CDI,CDD  
+                    description: CDI,CDD
                   date:
                     type: number
                     description: yyyy
@@ -523,7 +522,7 @@ definitions:
                       properties:
                         date:
                           type: number
-                          description: yyyy nombre decimal 
+                          description: yyyy nombre decimal
                         debut:
                           type: string
                           description: debut yyyy-mm-dd
@@ -794,4 +793,3 @@ definitions:
                   description: nombre de points depenses
   Error:
     type: object
-
