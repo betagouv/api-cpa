@@ -12,13 +12,7 @@ function FormationsController(options) {
   const logger = options.logger;
 
   this.getFormations = function(req, res, next) {
-    var search_type = req.query.search_type;
-    var search_term = req.query.search_term;
-
-    if (search_type !== '' && search_type !== 'code_cpf' && search_type !== 'public_vise') {
-      return next(new StandardError("invalid search_type, should be one of '', 'code_cpf', 'public_vise'", {code: 500}))
-    }
-
+    var public_vise = req.query.public_vise
     request
       .get({
         url: options.dataHost + '/liste_formations',
@@ -30,16 +24,9 @@ function FormationsController(options) {
       }
       let data = JSON.parse(body)
       data = _.filter(data, function (item) {
-        return search_type === '' ||
-          (search_type === 'code_cpf' && item.code_cpf === search_term) ||
-          (search_type === 'public_vise' && item.public_vise === search_value)
+        return public_vise === null ||
+          (public_vise === item.public_vise)
       })
-      if (data.length === 0) {
-        return next(new StandardError(search_term + " not found", {code: 404}))
-      }
-      if (search_type === 'code_cpf' && data.length > 1) {
-        return next(new StandardError("join failed", {code: 500}))
-      }
       return res.json(data)
     })
   }
