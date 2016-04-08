@@ -169,6 +169,72 @@
                      }
                   ]
                }
+            },
+            {
+               "employeur":{
+                  "nom":"my entreprise",
+                  "ville":"Avelin",
+                  "codepostal":"59710",
+                  "siret":"50333553100035",
+                  "ape":"7022Z"
+               },
+               "emploi":{
+                  "horairehebdo":5,
+                  "type":"AE",
+                  "date":2014,
+                  "debut":"2014-01-01",
+                  "fin":"2014-06-30",
+                  "details":[
+                     {
+                        "date":2014,
+                        "debut":"2014-01-01",
+                        "fin":"2014-01-30",
+                        "heurestravailles":20,
+                        "salairebrut":200,
+                        "precomptepoleemploi":5
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-02-01",
+                        "fin":"2014-02-30",
+                        "heurestravailles":20,
+                        "salairebrut":200,
+                        "precomptepoleemploi":5
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-03-01",
+                        "fin":"2014-03-31",
+                        "heurestravailles":20,
+                        "salairebrut":200,
+                        "precomptepoleemploi":5
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-04-01",
+                        "fin":"2014-04-31",
+                        "heurestravailles":20,
+                        "salairebrut":200,
+                        "precomptepoleemploi":5
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-05-01",
+                        "fin":"2014-05-31",
+                        "heurestravailles":20,
+                        "salairebrut":200,
+                        "precomptepoleemploi":5
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-06-01",
+                        "fin":"2014-06-31",
+                        "heurestravailles":20,
+                        "salairebrut":200,
+                        "precomptepoleemploi":5
+                     }
+                  ]
+               }
             }
          ],
          "debitprestation":[
@@ -815,6 +881,64 @@
                         "heurestravailles":151,
                         "salairebrut":2224,
                         "precomptepoleemploi":74
+                     }
+                  ]
+               }
+            },
+            {
+               "employeur":{
+                  "nom":"LES MOUSTACHES DU BERRY",
+                  "ville":"VIERZON",
+                  "codepostal":"18100",
+                  "siret":"80420851000011",
+                  "ape":"9499Z"
+               },
+               "emploi":{
+                  "horairehebdo":35,
+                  "type":"Service Civique",
+                  "date":2014,
+                  "debut":"2014-02-01",
+                  "fin":"2014-08-30",
+                  "details":[
+                     {
+                        "date":2014,
+                        "debut":"2014-02-01",
+                        "fin":"2014-02-31",
+                        "heurestravailles":151,
+                        "salairebrut":1000,
+                        "precomptepoleemploi":30
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-03-01",
+                        "fin":"2014-03-31",
+                        "heurestravailles":151,
+                        "salairebrut":1000,
+                        "precomptepoleemploi":30
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-04-01",
+                        "fin":"2014-04-31",
+                        "heurestravailles":151,
+                        "salairebrut":1000,
+                        "precomptepoleemploi":30
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-05-01",
+                        "fin":"2014-05-31",
+                        "heurestravailles":151,
+                        "salairebrut":1000,
+                        "precomptepoleemploi":30
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-06-01",
+                        "fin":"2014-06-31",
+                        "heurestravailles":151,
+                        "salairebrut":1000,
+                        "precomptepoleemploi":30
                      }
                   ]
                }
@@ -1597,6 +1721,16 @@
                            "salaireannuel":22000,
                            "trimestres":1
                         }
+                     },
+                     {
+                        "annee":2014,
+                        "debut":"2014-02-01",
+                        "fin":"2014-06-31",
+                        "specifiques":{
+                           "employeur":"LES MOUSTACHES DU BERRY",
+                           "salaireannuel":12000,
+                           "trimestres":1
+                        }
                      }
                   ]
                }
@@ -1883,13 +2017,12 @@
    ],
    "liste_formations":[
       {
-         "code_cpf":"string",
+         "id":"string",
          "organisme":"string",
          "public_vise":"string",
-	 "code_offreinfo":"string",
-	 "code_certifinfo":"string",
+         "code_offreinfo":"string",
+         "code_certifinfo":"string",
          "niveau":0
       }
    ]
 }
-
