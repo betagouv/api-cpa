@@ -17,8 +17,8 @@
                   "nom":"Octo - Technology",
                   "ville":"CDI",
                   "codepostal":"75019",
-                  "siret":"-",
-                  "ape":"-"
+                  "siret":"41816609600051",
+                  "ape":"6202A"
                },
                "emploi":{
                   "horairehebdo":39,
@@ -91,8 +91,8 @@
                   "nom":"Adminext",
                   "ville":"CDI",
                   "codepostal":"75019",
-                  "siret":"-",
-                  "ape":"-"
+                  "siret":"49851512100032",
+                  "ape":"6202A"
                },
                "emploi":{
                   "horairehebdo":39,
@@ -141,8 +141,8 @@
                   "nom":"Islean Consulting",
                   "ville":"CDI",
                   "codepostal":"75019",
-                  "siret":"-",
-                  "ape":"-"
+                  "siret":"50333553100029",
+                  "ape":"7022Z"
                },
                "emploi":{
                   "horairehebdo":39,
@@ -170,6 +170,9 @@
                   ]
                }
             }
+         ],
+         "debitprestation":[
+
          ]
       },
       {
@@ -253,9 +256,455 @@
                         "heurestravailles":166,
                         "salairebrut":2558,
                         "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2015,
+                        "debut":"2015-06-01",
+                        "fin":"2015-06-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2015,
+                        "debut":"2015-05-01",
+                        "fin":"2015-05-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2015,
+                        "debut":"2015-04-01",
+                        "fin":"2015-04-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2015,
+                        "debut":"2015-03-01",
+                        "fin":"2015-03-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2015,
+                        "debut":"2015-02-01",
+                        "fin":"2015-02-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2015,
+                        "debut":"2015-01-01",
+                        "fin":"2015-01-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-12-01",
+                        "fin":"2014-12-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-11-01",
+                        "fin":"2014-11-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-11-01",
+                        "fin":"2014-11-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-10-01",
+                        "fin":"2014-10-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-09-01",
+                        "fin":"2014-09-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-08-01",
+                        "fin":"2014-08-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-07-01",
+                        "fin":"2014-07-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-06-01",
+                        "fin":"2014-06-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-05-01",
+                        "fin":"2014-05-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-04-01",
+                        "fin":"2014-04-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-03-01",
+                        "fin":"2014-03-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-02-01",
+                        "fin":"2014-02-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2014,
+                        "debut":"2014-01-01",
+                        "fin":"2014-01-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2013,
+                        "debut":"2013-12-01",
+                        "fin":"2013-12-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2013,
+                        "debut":"2013-11-01",
+                        "fin":"2013-11-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2013,
+                        "debut":"2013-11-01",
+                        "fin":"2013-11-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2013,
+                        "debut":"2013-10-01",
+                        "fin":"2013-10-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2013,
+                        "debut":"2013-09-01",
+                        "fin":"2013-09-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2013,
+                        "debut":"2013-08-01",
+                        "fin":"2013-08-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2013,
+                        "debut":"2013-07-01",
+                        "fin":"2013-07-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2013,
+                        "debut":"2013-06-01",
+                        "fin":"2013-06-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2013,
+                        "debut":"2013-05-01",
+                        "fin":"2013-05-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2013,
+                        "debut":"2013-04-01",
+                        "fin":"2013-04-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2013,
+                        "debut":"2013-03-01",
+                        "fin":"2013-03-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2013,
+                        "debut":"2013-02-01",
+                        "fin":"2013-02-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2013,
+                        "debut":"2013-01-01",
+                        "fin":"2013-01-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2011,
+                        "debut":"2011-12-01",
+                        "fin":"2011-12-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2011,
+                        "debut":"2011-11-01",
+                        "fin":"2011-11-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2011,
+                        "debut":"2011-11-01",
+                        "fin":"2011-11-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2011,
+                        "debut":"2011-10-01",
+                        "fin":"2011-10-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2011,
+                        "debut":"2011-09-01",
+                        "fin":"2011-09-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2011,
+                        "debut":"2011-08-01",
+                        "fin":"2011-08-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2011,
+                        "debut":"2011-07-01",
+                        "fin":"2011-07-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2011,
+                        "debut":"2011-06-01",
+                        "fin":"2011-06-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2011,
+                        "debut":"2011-05-01",
+                        "fin":"2011-05-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2011,
+                        "debut":"2011-04-01",
+                        "fin":"2011-04-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2011,
+                        "debut":"2011-03-01",
+                        "fin":"2011-03-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2011,
+                        "debut":"2011-02-01",
+                        "fin":"2011-02-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
+                     },
+                     {
+                        "date":2011,
+                        "debut":"2011-01-01",
+                        "fin":"2011-01-30",
+                        "heurestravailles":166,
+                        "salairebrut":2558,
+                        "precomptepoleemploi":99
                      }
                   ]
                }
+            }
+         ],
+         "debitprestation":[
+            {
+               "annee":2011,
+               "fin":"2011-12-30",
+               "debut":"2011-12-01",
+               "montant":"2344",
+               "type":"ARE"
+            },
+            {
+               "annee":2011,
+               "fin":"2011-11-30",
+               "debut":"2011-11-01",
+               "montant":"2344",
+               "type":"ARE"
+            },
+            {
+               "annee":2011,
+               "fin":"2011-10-30",
+               "debut":"2011-10-01",
+               "montant":"2344",
+               "type":"ARE"
+            },
+            {
+               "annee":2011,
+               "fin":"2011-09-30",
+               "debut":"2011-09-01",
+               "montant":"2344",
+               "type":"ARE"
+            },
+            {
+               "annee":2011,
+               "fin":"2011-08-30",
+               "debut":"2011-08-01",
+               "montant":"2344",
+               "type":"ARE"
+            },
+            {
+               "annee":2011,
+               "fin":"2011-07-30",
+               "debut":"2011-07-01",
+               "montant":"2344",
+               "type":"ARE"
+            },
+            {
+               "annee":2011,
+               "fin":"2011-06-30",
+               "debut":"2011-06-01",
+               "montant":"2344",
+               "type":"ARE"
+            },
+            {
+               "annee":2011,
+               "fin":"2011-05-30",
+               "debut":"2011-05-01",
+               "montant":"2344",
+               "type":"ARE"
+            },
+            {
+               "annee":2011,
+               "fin":"2011-04-30",
+               "debut":"2011-04-01",
+               "montant":"2344",
+               "type":"ARE"
+            },
+            {
+               "annee":2011,
+               "fin":"2011-03-30",
+               "debut":"2011-03-01",
+               "montant":"2344",
+               "type":"ARE"
+            },
+            {
+               "annee":2011,
+               "fin":"2011-02-30",
+               "debut":"2011-02-01",
+               "montant":"2344",
+               "type":"ARE"
+            },
+            {
+               "annee":2011,
+               "fin":"2011-01-30",
+               "debut":"2011-01-01",
+               "montant":"2344",
+               "type":"ARE"
             }
          ]
       },
@@ -370,6 +819,9 @@
                   ]
                }
             }
+         ],
+         "debitprestation":[
+
          ]
       }
    ],
@@ -719,9 +1171,9 @@
                         "debut":"2013-06-25",
                         "fin":"2013-12-31",
                         "specifiques":{
-                            "employeur":"Islean Consulting",
-                            "points":75.38
-                       }
+                           "employeur":"Islean Consulting",
+                           "points":75.38
+                        }
                      },
                      {
                         "annee":2012,
@@ -1430,3 +1882,4 @@
       }
    ]
 }
+

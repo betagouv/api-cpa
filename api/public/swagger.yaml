@@ -5,6 +5,7 @@ info:
   version: 0.0.1
 basePath: /api
 schemes:
+  - http
   - https
 produces:
   - application/json
@@ -382,7 +383,7 @@ paths:
           description: Unexpected error
           schema:
             $ref: '#/definitions/Error'
-
+            
   /identitepivot/penibilite:
     get:
       summary: Récupération des crédits formation d'un salarié
@@ -438,10 +439,8 @@ paths:
           schema:
             $ref: '#/definitions/Error'
 
-
 definitions:
-
-  identite:
+  identitepivot:
     type: object
     properties:
       family_name:
@@ -452,7 +451,7 @@ definitions:
         description: prénom
       birthdate:
         type: string
-        description: date de naissance (YYYY-MM-DD)
+        description: date de naissance (JJ/MM/YYYY)
       gender:
         type: string
         description: male ou Female
@@ -473,7 +472,7 @@ definitions:
           type: string
           description: NIR
         identite:
-          $ref: '#/definitions/identite'
+          $ref: '#/definitions/identitepivot'
         emplois:
           type: array
           items:
@@ -497,47 +496,50 @@ definitions:
                   ape:
                     type: string
                     description: APE/NAF
-              emploi:
-                type: object
-                properties:
-                  horairehebdo:
-                    type: number
-                    description: horraire hebdomadaire
-                  type:
-                    type: string
-                    description: CDI,CDD
-                  date:
-                    type: number
-                    description: yyyy
-                  debut:
-                    type: string
-                    description: yyyy-mm-dd
-                  fin:
-                    type: string
-                    description: yyyy-mm-dd
-                  details:
-                    type: array
-                    items:
-                      type: object
-                      properties:
-                        date:
-                          type: number
-                          description: yyyy nombre decimal
-                        debut:
-                          type: string
-                          description: debut yyyy-mm-dd
-                        fin:
-                          type: string
-                          description: fin yyyy-mm-dd
-                        heurestravailles:
-                          type: number
-                          description: nombres d'heures travaillé
-                        salairebrut:
-                          type: number
-                          description: salaire brut
-                        precomptepoleemploi:
-                          type: number
-                          description: precompte pole emploi
+              details:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    date:
+                      type: string
+                      description: date
+                    debut:
+                      type: string
+                      description: debut
+                    fin:
+                      type: string
+                      description: fin
+                    heurestravailles:
+                      type: string
+                      description: nombres d'heures travaillé
+                    salairebrut:
+                      type: string
+                      description: salaire brut
+                    precomptepoleemploi:
+                      type: string
+                      description: precompte pole emploi
+        debitprestation:
+          type: array
+          items:
+            type: object
+            properties:
+              annee: 
+                type: number
+                description: yyyy
+              debut:
+                type: string
+                description: yyyy-mm-dd
+              fin:
+                type: string
+                description: yyyy-mm-dd
+              montant:
+                type: number
+                description: montant des allocations
+              type:
+                type: string
+                description: ex ARE
+          
   Retraite:
       type: object
       properties:
@@ -545,67 +547,15 @@ definitions:
           type: string
           description: NIR
         identite:
-          $ref: '#/definitions/identite'
+          $ref: '#/definitions/identitepivot'
         retraitedebase:
           type: object
           properties:
             trimestrestotal:
-              type: number
+              type: string
               description: trimestre total
             pointtotal:
-              type: number
-              description: point total
-            regimes:
-              type: array
-              items:
-                type: object
-                properties:
-                  type:
-                    type: string
-                    description: type de regime
-                  nombretrimestre:
-                    type: number
-                    description: nombre de trimestres
-                  derniereannee:
-                    type: number
-                    description: derniere annee
-                  points:
-                    type: number
-                    description: points
-                  details:
-                    type: array
-                    items:
-                      type: object
-                      properties:
-                        annee:
-                          type: number
-                          description: yyyy
-                        debut:
-                          type: string
-                          description: debut yyyy-mm-dd
-                        fin:
-                          type: string
-                          description: fin yyyy-mm-dd
-                        specifiques:
-                          type: object
-                          properties:
-                            employeur:
-                              type: string
-                              description: employeur
-                            salaireannuel:
-                              type: number
-                              description: salaire annuel
-                            trimestres:
-                              type: number
-                              description: trimestres
-        retraitecomplementaire:
-          type: object
-          properties:
-            trimestrestotal:
-              type: number
-              description: trimestre total
-            pointtotal:
-              type: number
+              type: string
               description: point total
             regimes:
               type: array
@@ -616,13 +566,13 @@ definitions:
                     type: string
                     description: type de regime
                   nombretrimestre:
-                    type: number
+                    type: string
                     description: nombre de trimestres
                   derniereannee:
-                    type: number
+                    type: string
                     description: derniere annee
                   points:
-                    type: number
+                    type: string
                     description: points
                   details:
                     type: array
@@ -630,14 +580,14 @@ definitions:
                       type: object
                       properties:
                         annee:
-                          type: number
-                          description: annee yyyy
+                          type: string
+                          description: annee
                         debut:
                           type: string
-                          description: debut yyyy-mm-dd
+                          description: debut
                         fin:
                           type: string
-                          description: fin yyyy-mm-dd
+                          description: fin
                         specifiques:
                           type: object
                           properties:
@@ -645,10 +595,62 @@ definitions:
                               type: string
                               description: employeur
                             salaireannuel:
-                              type: number
+                              type: string
                               description: salaire annuel
                             trimestres:
-                              type: number
+                              type: string
+                              description: trimestres
+        retraitecomplementaire:
+          type: object
+          properties:
+            trimestrestotal:
+              type: string
+              description: trimestre total
+            pointtotal:
+              type: string
+              description: point total
+            regimes:
+              type: array
+              items:
+                type: object
+                properties:
+                  typeregime:
+                    type: string
+                    description: type de regime
+                  nombretrimestre:
+                    type: string
+                    description: nombre de trimestres
+                  derniereannee:
+                    type: string
+                    description: derniere annee
+                  points:
+                    type: string
+                    description: points
+                  details:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        annee:
+                          type: string
+                          description: annee
+                        debut:
+                          type: string
+                          description: debut
+                        fin:
+                          type: string
+                          description: fin
+                        specifiques:
+                          type: object
+                          properties:
+                            employeur:
+                              type: string
+                              description: employeur
+                            salaireannuel:
+                              type: string
+                              description: salaire annuel
+                            trimestres:
+                              type: string
                               description: trimestres
 
   Formation:
@@ -658,12 +660,12 @@ definitions:
         type: string
         description: NIR
       identite:
-        $ref: '#/definitions/identite'
+        $ref: '#/definitions/identitepivot'
       compteheure:
         type: object
         properties:
           solde:
-            type: number
+            type: string
             description: solde
           credits:
             type: array
@@ -671,17 +673,17 @@ definitions:
               type: object
               properties:
                 valeur:
-                  type: number
-                  description: valeur cpf
+                  type: string
+                  description: valeur
                 date:
-                  type: number
-                  description: date YYYY
+                  type: string
+                  description: date
                 debut:
                   type: string
-                  description: debut yyyy-mm-dd
+                  description: debut
                 fin:
                   type: string
-                  description: fin yyyy-mm-dd
+                  description: fin
                 entreprise:
                   type: object
                   properties:
@@ -698,16 +700,10 @@ definitions:
               properties:
                 status:
                   type: string
-                  description: status done,pending,...
+                  description: status
                 date:
-                  type: number
-                  description: date YYYY
-                debut:
                   type: string
-                  description: date YYYY-MM-DD
-                fin:
-                  type: string
-                  description: date YYYY-MM-DD
+                  description: date
                 formation:
                   type: object
                   properties:
@@ -721,16 +717,11 @@ definitions:
                       type: string
                       description: editeur
                     niveau:
-                      type: number
-                      description: niveau de la formation
-                    valeur:
-                      type: number
-                      description: valeur en points
+                      type: string
+                      description: niveau
                     ape:
-                      type: array
-                      items:
-                        type: string
-                        description: ape
+                      type: string
+                      description: ape
   Penibilite:
     type: object
     properties:
@@ -738,12 +729,12 @@ definitions:
         type: string
         description: NIR
       identite:
-        $ref: '#/definitions/identite'
+        $ref: '#/definitions/identitepivot'
       comptepoints:
         type: object
         properties:
           solde:
-            type: number
+            type: string
             description: solde
           credits:
             type: array
@@ -751,17 +742,17 @@ definitions:
               type: object
               properties:
                 valeur:
-                  type: number
-                  description: valeur en points
+                  type: string
+                  description: valeur
                 date:
-                  type: number
+                  type: string
                   description: date
                 debut:
                   type: string
-                  description: debut yyyy-mm-dd
+                  description: debut
                 fin:
                   type: string
-                  description: fin yyyy-mm-dd
+                  description: fin
                 entreprise:
                   type: object
                   properties:
@@ -778,18 +769,30 @@ definitions:
               properties:
                 status:
                   type: string
-                  description: status done,pending...
+                  description: status
                 date:
-                  type: number
-                  description: date yyyy
-                debut:
                   type: string
-                  description: date yyyy-mm-dd
-                fin:
-                  type: string
-                  description: date yyyy-mm-dd
-                valeur:
-                  type: number
-                  description: nombre de points depenses
+                  description: date
+                formation:
+                  type: object
+                  properties:
+                    nom:
+                      type: string
+                      description: nom
+                    id:
+                      type: string
+                      description: id
+                    editeur:
+                      type: string
+                      description: editeur
+                    niveau:
+                      type: string
+                      description: niveau
+                    destinataire:
+                      type: string
+                      description: destinataire
+
   Error:
     type: object
+
+
