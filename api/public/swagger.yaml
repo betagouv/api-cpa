@@ -5,7 +5,6 @@ info:
   version: 0.0.1
 basePath: /api
 schemes:
-  - http
   - https
 produces:
   - application/json
@@ -383,7 +382,7 @@ paths:
           description: Unexpected error
           schema:
             $ref: '#/definitions/Error'
-            
+
   /identitepivot/penibilite:
     get:
       summary: Récupération des crédits formation d'un salarié
@@ -524,7 +523,7 @@ definitions:
           items:
             type: object
             properties:
-              annee: 
+              annee:
                 type: number
                 description: yyyy
               debut:
@@ -539,7 +538,7 @@ definitions:
               type:
                 type: string
                 description: ex ARE
-          
+
   Retraite:
       type: object
       properties:
@@ -794,5 +793,3 @@ definitions:
 
   Error:
     type: object
-
-
