@@ -11,7 +11,7 @@ produces:
 paths:
   /cpa/{nir}/chomage:
     get:
-      summary: Récupération des cotisations chomage d'un salarié
+      summary: "Récupération des cotisations chomage d'un salarié"
       parameters:
         - name: nir
           in: path
@@ -39,7 +39,7 @@ paths:
 
   /cpa/{nir}/retraite:
     get:
-      summary: Récupération des cotisations aurpès de la retraite d'un salarié
+      summary: "Récupération des cotisations aurpès de la retraite d'un salarié"
       parameters:
         - name: nir
           in: path
@@ -66,7 +66,7 @@ paths:
             $ref: '#/definitions/Error'
   /cpa/{nir}/formation:
     get:
-      summary: Récupération des crédits formation d'un salarié
+      summary: "Récupération des crédits formation d'un salarié"
       parameters:
         - name: nir
           in: path
@@ -93,7 +93,7 @@ paths:
             $ref: '#/definitions/Error'
   /cpa/{nir}/penibilite:
     get:
-      summary: Récupération des crédits penibilite d'un salarié
+      summary: "Récupération des crédits penibilite d'un salarié"
       parameters:
         - name: nir
           in: path
@@ -220,7 +220,7 @@ paths:
 
   /identitepivot/chomage:
     get:
-      summary: Récupération des cotisations chomage d'un salarié
+      summary: "Récupération des cotisations chomage d'un salarié"
       parameters:
         - name: given_name
           in: query
@@ -276,7 +276,7 @@ paths:
 
   /identitepivot/retraite:
     get:
-      summary: Récupération des cotisations aurpès de la retraite d'un salarié
+      summary: "Récupération des cotisations aurpès de la retraite d'un salarié"
       parameters:
         - name: given_name
           in: query
@@ -330,7 +330,7 @@ paths:
             $ref: '#/definitions/Error'
   /identitepivot/formation:
     get:
-      summary: Récupération des crédits formation d'un salarié
+      summary: "Récupération des crédits formation d'un salarié"
       parameters:
         - name: given_name
           in: query
@@ -385,7 +385,7 @@ paths:
 
   /identitepivot/penibilite:
     get:
-      summary: Récupération des crédits formation d'un salarié
+      summary: "Récupération des crédits formation d'un salarié"
       parameters:
         - name: given_name
           in: query

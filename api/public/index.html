@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,287 +14,124 @@
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-  <style>
-  td.green {
-    color: green
-  }
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
-  div.photo {
-    background-size: cover;
-    width: 150px;
-    height: 150px;
-    background-repeat: no-repeat;
-  }
-  </style>
+  <!-- Custom styles for this template -->
+  <link href="./css/carousel.css" rel="stylesheet">
 </head>
-
-<body role="document">
-
-<!-- Fixed navbar -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<!-- NAVBAR
+================================================== -->
+<body>
+<div class="navbar-wrapper">
   <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">API Compte Personnel d'Activité</a>
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">API Compte Personnel d'Activité</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <!--<ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>-->
+        </div>
+      </div>
+    </nav>
+
+  </div>
+</div>
+
+
+<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>API Compte Personnel d'Activité</h1>
+          <p>Autonomisez les citoyens dans leur parcours professionnel.</p>
+          <p><a class="btn btn-lg btn-primary" href="./step1.html" role="button">Obtenir l'accès</a></p>
+        </div>
+      </div>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="./index.html">Accueil</a></li>
-        <li><a href="/doc.html">Documentation</a></li>
-      </ul>
-    </div><!--/.nav-collapse -->
   </div>
-</nav>
+</div><!-- /.carousel -->
 
-<div class="container" role="main" style="margin-top: 50px;">
 
-  <div class="page-header">
-    <h1>Présentation</h1>
-  </div>
 
-  <p>Bienvenue sur l'API du Compte Personnel d'Activité.</p>
+<!-- Marketing messaging and featurettes
+================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="page-header">
-    <h1>Accès aux données</h1>
-  </div>
+<div class="container marketing">
 
-  <div class="table-responsive">
-  <table class="table">
-    <thead>
-    <tr>
-      <th colspan="2"></th>
-      <th class="col-xs-2">Chômage</th>
-      <th class="col-xs-2">Retraite</th>
-      <th class="col-xs-2">Pénibilité</th>
-      <th class="col-xs-2">Formation</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <th>
-        Identifié
-      </th>
-      <th>
-        France Connect<br />
-        <small><span class="label label-default">scope</span></small>
-      </th>
-      <td class="green">
-        OK<br />
-        <small><span class="label label-default">CPA_chomage</span></small>
-      </td>
-      <td class="green">
-        OK<br />
-        <small><span class="label label-default">CPA_retraite</span></small>
-      </td>
-      <td class="green">
-        OK<br />
-        <small><span class="label label-default">CPA_penibilite</span></small>
-      </td>
-      <td class="green">
-        OK<br />
-        <small><span class="label label-default">CPA_formation</span></small>
-      </td>
-    </tr>
-    <tr>
-      <th rowspan="2">
-        Non identifié
-      </th>
-      <th>
-        NIR
-      </th>
-      <td class="green">OK</td>
-      <td class="green">OK</td>
-      <td class="green">OK</td>
-      <td class="green">OK</td>
-    </tr>
-    <tr>
-      <th>
-        Identité Pivot
-      </th>
-      <td class="green">OK</td>
-      <td class="green">OK</td>
-      <td class="green">OK</td>
-      <td class="green">OK</td>
-    </tr>
-    </tbody>
-  </table>
-  </div>
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+    <div class="col-lg-4">
+      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+      <h2>Inscription en test</h2>
+      <p>Un accès développeur en 3 étapes.</p>
+      <a href="./step1.html" class="btn btn-default">Obtenir l'accès</a>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+      <h2>Inscription en production</h2>
+      <p>Accès aux données de production.</p>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+      <h2>Données certifiées</h2>
+      <p>Données massives provenant d'organismes d'Etat.</p>
+      <a href="./donnees_securisees.html" class="btn btn-default">Plus d'infos</a>
+    </div><!-- /.col-lg-4 -->
+  </div><!-- /.row -->
 
-  <div class="page-header">
-    <h1>Identités démo</h1>
-  </div>
 
-  <div class="table-responsive">
-  <table class="table">
-    <thead>
-    <tr>
-      <th class="col-xs-3"></th>
-      <th class="col-xs-3"><div class="photo img-circle" style="background-image: url(./images/users/pierre-ratinger.jpg);"></div></th>
-      <th class="col-xs-3"><div class="photo img-circle" style="background-image: url(./images/users/eric-mercier.jpg);"></div></th>
-      <th class="col-xs-3"><div class="photo img-circle" style="background-image: url(./images/users/sonia-ramala.jpg);"></div></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <th>Prénom</th>
-      <td>Pierre</td>
-      <td>Eric</td>
-      <td>Sonia</td>
-    </tr>
-    <tr>
-      <th>Nom</th>
-      <td>Ratinger</td>
-      <td>Mercier</td>
-      <td>Ramala</td>
-    </tr>
-    <tr>
-      <th>Date de naissance</th>
-      <td>12/09/1962</td>
-      <td>21/04/1981</td>
-      <td>21/05/1991</td>
-    </tr>
-    <tr>
-      <th>Numéro de sécurité sociale</th>
-      <td>123456789012346</td>
-      <td>123456789012345</td>
-      <td>123456789012347</td>
-    </tr>
-    <tr>
-      <th>Description</th>
-      <td>Bientôt à la retraite. A travaillé de longues années dans la même usine. A connu une courte période de chômage. A cumulé des points pénibilité depuis l'entrée en vigueur de la réforme.</td>
-      <td>Quadra dans la fleur de l'âge. Cadre très mobile, il a changé d'employeur à de nombreuses reprises. A travaillé en indépendant, a donné des cours à l'université. Aujourd'hui il se pose la question de se former pour connaître un nouveau rebond professionnel.</td>
-      <td>Jeune femme pleine de vie. Après un service civique, elle enchaîne les CDD dans les entreprises de coiffure. Est actuellement à la recherche d'un emploi.</td>
-    </tr>
-    <tr>
-      <th>Identifiant DGFIP</th>
-      <td><strong>46413193478</strong> &nbsp <font size="-2">(<a href="https://etat-augmente-fs.herokuapp.com/" target="_blank">Se connecter</a>)</font></td>
-      <td><strong>1234567891011</strong> &nbsp <font size="-2">(<a href="https://etat-augmente-fs.herokuapp.com/" target="_blank">Se connecter</a>)</font></td>
-      <td><strong>46413193476</strong> &nbsp <font size="-2">(<a href="https://etat-augmente-fs.herokuapp.com/" target="_blank">Se connecter</a>)</font></td>
-    </tr>
-    <tr>
-      <th>Mot de passe</th>
-      <td><strong>123</strong></td>
-      <td><strong>123</strong></td>
-      <td><strong>123</strong></td>
-    </tr>
-    </tbody>
-  </table>
-  </div>
+  <!-- START THE FEATURETTES -->
 
-  <div class="page-header">
-    <h1>Liens</h1>
-  </div>
+  <hr class="featurette-divider">
 
-  <div class="table-responsive">
-  <table class="table">
-    <tbody>
-    <tr>
-      <th>
-        API CPA
-      </th>
-      <td>
-        <a href="/doc.html" target="_blank">
-          Documentation de l'API Comptes Personnel d'Activité
-        </a>
-        <br />
-        <a href="https://github.com/sgmap/api-cpa/" target="_blank">
-          Sources (github)
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <th>
-        Fichiers bruts <br> (caisse des dépots)
-      </th>
-      <td>
-        <p>
-          <a href="https://drive.google.com/folderview?id=0B7v9_LMu9GbiaHRpaGRYRmY5aUE&usp=sharing" target="_blank">
-            Drive des données de la caisse des dépots
-          </a>
-        </p>
-        <p>
-          <a href="https://drive.google.com/file/d/0B-urpDectBSwZHpSbU9UWWFvUXc/view" target="_blank">
-            Volontaires du service civique (128 000)
-          </a>
-        </p>
-        <p>
-          N'hésitez pas à venir nous voir à la table API, backend, architecture et accès aux données pour :
-          <ul>
-            <li>Comprendre le jeu de donnée</li>
-            <li>Nous dire de ce que vous avez besoin nous sommes en train de
-              re-structurer la donnée et nous avons besoin de savoir ce dont vous avez besoin</li>
-          </ul>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <th>
-        Fichiers bruts <br> (Pôle emploi)
-      </th>
-      <td>
-        Les données sont disponibles sur le site de <a href="http://www.emploi-store-dev.fr/portail-developpeur/accueil"> Emploi store dev</a>
-        <ul>
-          <li>Données sur les demandeurs inscrits à Pôle emploi entre novembre 2014 et février 2016 (via clé USB, dans le cadre du hackathon CPA)</li>
-          <li>Données sur les offres d'emploi</li>
-          <li>Données sur les besoins de main d'oeuvre</li>
-          <li>Données "information sur le marché du travail"</li>
-          <li>Répertoire opérationnel des métiers (ROME)</li>
-          <li>Référentiel des agences Pôle emploi</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <th>
-        API Pole emplois
-      </th>
-      <td>
-        <a href="http://labonneboite.pole-emploi.fr/api">API La bonne boite</a>
-        <br>
-        <a href="http://labonneformation.pole-emploi.fr/api/v1/api_hackathon_doc.html">API La bonne formation</a>
-      </td>
-    </tr>
-    <tr>
-      <th>
-        France Connect
-      </th>
-      <td>
-        <a href="https://doc.integ01.dev-franceconnect.fr/" target="_blank">
-          Site Internet
-        </a>
-        <br />
-        <a href="https://doc.integ01.dev-franceconnect.fr/fournisseur-service" target="_blank">
-          Documentation pour les Fournisseurs de Services (FS)
-        </a>
-        <br />
-        <a href="https://github.com/france-connect/mobile-applications-examples" target="_blank">
-          Mobile application example (github)
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <th>
-        Exemple
-      </th>
-      <td>
-        <a href="https://etat-augmente-fs.herokuapp.com/" target="_blank">
-          Fournisseur de Service type (démo)
-        </a>
-        <br />
-        <a href="https://github.com/jgigault/etat-augmente-fs" target="_blank">
-          Sources (github)
-        </a>
-      </td>
-    </tr>
-    </tbody>
-  </table>
-  </div>
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2016 API-CPA. &middot; <a href="#">Mentions légales</a> &middot; <a href="#">Contactez-nous</a></p>
+  </footer>
 
-</div> <!-- /container -->
+</div><!-- /.container -->
 
+
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"><\/script>')</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </body>
 </html>
