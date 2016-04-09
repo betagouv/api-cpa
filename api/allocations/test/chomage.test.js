@@ -45,7 +45,7 @@ describe('Chomage : allocation', () => {
            {
              "emploi": {
                "date": 2015,
-               "debut": "2015-01-01",
+               "debut": "2015-12-01",
                "fin": "2015-12-31",
              }
            }
@@ -64,7 +64,7 @@ describe('Chomage : allocation', () => {
            debit = [
               {
                 "date": 2016,
-                "debut": "2016-01-01",
+                "debut": "2016-12-01",
                 "fin": "2016-12-31",
                 "type": "ARE"
               }
@@ -80,7 +80,7 @@ describe('Chomage : allocation', () => {
            debit = [
               {
                 "date": 2016,
-                "debut": "2016-01-01",
+                "debut": "2016-02-01",
                 "fin": "2016-02-31",
                 "type": "ARE"
               }
