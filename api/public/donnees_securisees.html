@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Données sécurisées / API-CPA</title>
+  <title>Données globales de contexte</title>
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -76,8 +76,8 @@
   <a href="/" class="btn btn-default btn-lg">Retour</a>
 
   <div class="page-header">
-    <h1>Données certifiées</h1>
-    Vous trouverez ici les références vers les bases de données Open Data ou sous licence ad hoc vous permettant d'appréhender au mieux le contexte d'emploi dans le contexte de vos usagers. Autant que le permet l'anonymisation des données, ces informations vous sont fournies à la maille la plus fine : métiers en tension, accidents du travail/maladies professionnelles, formations, etc.
+    <h1>Données globales de contexte</h1>
+    Vous trouverez ici les références vers les bases de données Open Data ou sous licence ad hoc vous permettant d'appréhender au mieux la situation de l'emploi dans le contexte de vos usagers. Autant que le permet l'anonymisation des données, ces informations vous sont fournies à la maille la plus fine : embauches, offres, accidents du travail/maladies professionnelles, formations, etc.
   </div>
 
   <!-- START THE FEATURETTES -->
@@ -96,7 +96,7 @@
       <td><span class="label label-success">OK</span></td>
     </tr>
     <tr>
-      <td>Suivi longitudinal des demandeurs inscrits à Pôle emploi entre novembre 2014 et février 2016 </td>
+      <td>Suivi longitudinal des demandeurs inscrits à Pôle emploi entre novembre 2014 et février 2016 (STMT)</td>
       <td>Pôle Emploi</td>
       <td><span class="label label-warning">1/12e disponible sous contrat ad hoc</span></td>
     </tr>
@@ -108,7 +108,7 @@
     <tr>
       <td>Référentiel des formations CARIF/OREF</td>
       <td>Pôle Emploi</td>
-      <td><span class="label label-warning"><a href="http://labonneformation.pole-emploi.fr/api/v1/api_hackathon_doc.html">Par API uniquement</a>&nbsp; Attendu par Taux de Retour à l'emploi</span></td>
+      <td><span class="label label-warning"><a href="http://labonneformation.pole-emploi.fr/api/v1/api_hackathon_doc.html">Par API uniquement</a>&nbsp; Attendu par Taux de Retour à l'emploi à 6, 12 mois</span></td>
     </tr>
     <tr>
       <td>Base de données des entreprises qui recrutent</td>
@@ -130,7 +130,17 @@
       <td>DARES</td>
       <td><span class="label label-danger">Non disponible</span></td>
     </tr>
+    <tr>
+      <td>Base de données d'utilisation du CPP</td>
+      <td>CNAV</td>
+      <td><span class="label label-danger">Non disponible, attendu à la maille SIRET et ROME</span></td>
+    </tr>
     </tbody>
+    <tr>
+      <td>Déclarations préalables à l'embauche anonymisées (DPAE)</td>
+      <td>ACOSS ou Pôle Emploi</td>
+      <td><span class="label label-danger">Non disponible</span></td>
+    </tr>
   </table>
 
   <!-- /END THE FEATURETTES -->
