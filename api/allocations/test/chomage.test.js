@@ -38,15 +38,15 @@ describe('Chomage : allocation', () => {
 
 
   describe('quand le travailleur a travaillé', () => {
-    describe('et qu\' il est resté dans la meme entreprise sur 2013', () => {
+    describe('et qu\' il est resté dans la meme entreprise sur 2015', () => {
 
       beforeEach(() => {
         experiences = [
            {
              "emploi": {
-               "date": 2013,
-               "debut": "2013-01-01",
-               "fin": "2013-12-31",
+               "date": 2015,
+               "debut": "2015-01-01",
+               "fin": "2015-12-31",
              }
            }
          ]
@@ -79,9 +79,9 @@ describe('Chomage : allocation', () => {
         it('il a pas le droit au chomdu', () => {
            debit = [
               {
-                "date": 2015,
-                "debut": "2015-01-01",
-                "fin": "2015-12-31",
+                "date": 2016,
+                "debut": "2016-01-01",
+                "fin": "2016-02-31",
                 "type": "ARE"
               }
             ]

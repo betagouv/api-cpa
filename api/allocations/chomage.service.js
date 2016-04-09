@@ -40,9 +40,9 @@ AllocationChomage.prototype.hasChomage = function(debits){
 
 AllocationChomage.prototype.hadChomageWithoutWorkingAfter = function(experiences, debits){
   if (debits.length === 0) return false;
-  const dateFinChomage = moment(debits[0].fin);
+  const dateDebutChomage = moment(debits[0].debut);
   const dateFinTravail = moment(experiences[0].emploi.fin);
-  return dateFinChomage.isAfter(dateFinTravail)
+  return dateDebutChomage.isAfter(dateFinTravail)
 }
 
 AllocationChomage.prototype.hasNotWorked = function(experiences) {
