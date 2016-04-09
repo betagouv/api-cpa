@@ -121,7 +121,7 @@ paths:
 
   /fc/chomage:
     get:
-      summary: Récupération des cotisations chomage d'un salarié
+      summary: "Récupération des cotisations chomage d'un salarié (CPA_chomage)"
       parameters:
         - name: token
           in: query
@@ -146,7 +146,7 @@ paths:
 
   /fc/retraite:
     get:
-      summary: Récupération des cotisations aurpès de la retraite d'un salarié
+      summary: "Récupération des cotisations aurpès de la retraite d'un salarié (CPA_retraite)"
       parameters:
         - name: token
           in: query
@@ -170,7 +170,7 @@ paths:
             $ref: '#/definitions/Error'
   /fc/formation:
     get:
-      summary: Récupération des crédits formation d'un salarié
+      summary: "Récupération des crédits formation d'un salarié (CPA_formation)"
       parameters:
         - name: token
           in: query
@@ -195,7 +195,7 @@ paths:
 
   /fc/penibilite:
     get:
-      summary: Récupération des crédits penibilite d'un salarié
+      summary: "Récupération des crédits penibilite d'un salarié (CPA_penibilite)"
       parameters:
         - name: token
           in: query
