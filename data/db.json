@@ -1,1985 +1,1977 @@
 {
-   "chomage":[
-      {
-         "id":123456789012345,
-         "identification":{
-            "given_name":"Eric",
-            "family_name":"Mercier",
-            "gender":"male",
-            "birthplace":"49007",
-            "birthdepartment":"66",
-            "birthcountry":"99100",
-            "birthdate":"1981-04-21"
-         },
-         "emplois":[
-            {
-               "employeur":{
-                  "nom":"Octo - Technology",
-                  "ville":"CDI",
-                  "codepostal":"75019",
-                  "siret":"41816609600051",
-                  "ape":"6202A"
-               },
-               "emploi":{
-                  "horairehebdo":39,
-                  "type":"CDI",
-                  "date":2014,
-                  "debut":"2014-06-16",
-                  "fin":"2014-12-31",
-                  "details":[
-                     {
-                        "date":2014,
-                        "debut":"2014-12-01",
-                        "fin":"2014-12-31",
-                        "heurestravailles":151,
-                        "salairebrut":3000,
-                        "precomptepoleemploi":74
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-11-01",
-                        "fin":"2014-11-31",
-                        "heurestravailles":151,
-                        "salairebrut":3000,
-                        "precomptepoleemploi":74
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-10-01",
-                        "fin":"2014-10-31",
-                        "heurestravailles":151,
-                        "salairebrut":3000,
-                        "precomptepoleemploi":74
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-09-01",
-                        "fin":"2014-09-31",
-                        "heurestravailles":151,
-                        "salairebrut":3000,
-                        "precomptepoleemploi":74
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-08-01",
-                        "fin":"2014-08-31",
-                        "heurestravailles":151,
-                        "salairebrut":3000,
-                        "precomptepoleemploi":74
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-07-01",
-                        "fin":"2014-07-31",
-                        "heurestravailles":151,
-                        "salairebrut":3000,
-                        "precomptepoleemploi":74
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-06-16",
-                        "fin":"2014-06-31",
-                        "heurestravailles":75,
-                        "salairebrut":1500,
-                        "precomptepoleemploi":37
-                     }
-                  ]
-               }
-            },
-            {
-               "employeur":{
-                  "nom":"Adminext",
-                  "ville":"CDI",
-                  "codepostal":"75019",
-                  "siret":"49851512100032",
-                  "ape":"6202A"
-               },
-               "emploi":{
-                  "horairehebdo":39,
-                  "type":"CDI",
-                  "date":2014,
-                  "debut":"2014-03-16",
-                  "fin":"2014-06-08",
-                  "details":[
-                     {
-                        "date":2014,
-                        "debut":"06-01-2014",
-                        "fin":"06-08-2014",
-                        "heurestravailles":38,
-                        "salairebrut":1500,
-                        "precomptepoleemploi":18
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-05-01",
-                        "fin":"2014-05-31",
-                        "heurestravailles":151,
-                        "salairebrut":6000,
-                        "precomptepoleemploi":74
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-04-01",
-                        "fin":"2014-04-31",
-                        "heurestravailles":151,
-                        "salairebrut":6000,
-                        "precomptepoleemploi":74
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-03-16",
-                        "fin":"2014-03-31",
-                        "heurestravailles":75,
-                        "salairebrut":3000,
-                        "precomptepoleemploi":37
-                     }
-                  ]
-               }
-            },
-            {
-               "employeur":{
-                  "nom":"Islean Consulting",
-                  "ville":"CDI",
-                  "codepostal":"75019",
-                  "siret":"50333553100029",
-                  "ape":"7022Z"
-               },
-               "emploi":{
-                  "horairehebdo":39,
-                  "type":"CDI",
-                  "date":2014,
-                  "debut":"2014-01-01",
-                  "fin":"2014-02-16",
-                  "details":[
-                     {
-                        "date":2014,
-                        "debut":"2014-02-01",
-                        "fin":"2014-02-16",
-                        "heurestravailles":75,
-                        "salairebrut":2000,
-                        "precomptepoleemploi":37
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-01-01",
-                        "fin":"2014-01-31",
-                        "heurestravailles":151,
-                        "salairebrut":4000,
-                        "precomptepoleemploi":74
-                     }
-                  ]
-               }
-            },
-            {
-               "employeur":{
-                  "nom":"my entreprise",
-                  "ville":"Avelin",
-                  "codepostal":"59710",
-                  "siret":"50333553100035",
-                  "ape":"7022Z"
-               },
-               "emploi":{
-                  "horairehebdo":5,
-                  "type":"AE",
-                  "date":2014,
-                  "debut":"2014-01-01",
-                  "fin":"2014-06-30",
-                  "details":[
-                     {
-                        "date":2014,
-                        "debut":"2014-01-01",
-                        "fin":"2014-01-30",
-                        "heurestravailles":20,
-                        "salairebrut":200,
-                        "precomptepoleemploi":5
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-02-01",
-                        "fin":"2014-02-30",
-                        "heurestravailles":20,
-                        "salairebrut":200,
-                        "precomptepoleemploi":5
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-03-01",
-                        "fin":"2014-03-31",
-                        "heurestravailles":20,
-                        "salairebrut":200,
-                        "precomptepoleemploi":5
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-04-01",
-                        "fin":"2014-04-31",
-                        "heurestravailles":20,
-                        "salairebrut":200,
-                        "precomptepoleemploi":5
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-05-01",
-                        "fin":"2014-05-31",
-                        "heurestravailles":20,
-                        "salairebrut":200,
-                        "precomptepoleemploi":5
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-06-01",
-                        "fin":"2014-06-31",
-                        "heurestravailles":20,
-                        "salairebrut":200,
-                        "precomptepoleemploi":5
-                     }
-                  ]
-               }
+  "chomage": [
+    {
+      "id": 123456789012345,
+      "identification": {
+        "given_name": "Eric",
+        "family_name": "Mercier",
+        "gender": "male",
+        "birthplace": "49007",
+        "birthdepartment": "66",
+        "birthcountry": "99100",
+        "birthdate": "1981-04-21"
+      },
+      "emplois": [
+        {
+          "employeur": {
+            "nom": "Octo - Technology",
+            "ville": "CDI",
+            "codepostal": "75019",
+            "siret": "41816609600051",
+            "ape": "6202A"
+          },
+          "emploi": {
+            "horairehebdo": 39,
+            "type": "CDI",
+            "date": 2014,
+            "debut": "2014-06-16",
+            "fin": "2014-12-31",
+            "details": [
+              {
+                "date": 2014,
+                "debut": "2014-12-01",
+                "fin": "2014-12-31",
+                "heurestravailles": 151,
+                "salairebrut": 3000,
+                "precomptepoleemploi": 74
+              },
+              {
+                "date": 2014,
+                "debut": "2014-11-01",
+                "fin": "2014-11-31",
+                "heurestravailles": 151,
+                "salairebrut": 3000,
+                "precomptepoleemploi": 74
+              },
+              {
+                "date": 2014,
+                "debut": "2014-10-01",
+                "fin": "2014-10-31",
+                "heurestravailles": 151,
+                "salairebrut": 3000,
+                "precomptepoleemploi": 74
+              },
+              {
+                "date": 2014,
+                "debut": "2014-09-01",
+                "fin": "2014-09-31",
+                "heurestravailles": 151,
+                "salairebrut": 3000,
+                "precomptepoleemploi": 74
+              },
+              {
+                "date": 2014,
+                "debut": "2014-08-01",
+                "fin": "2014-08-31",
+                "heurestravailles": 151,
+                "salairebrut": 3000,
+                "precomptepoleemploi": 74
+              },
+              {
+                "date": 2014,
+                "debut": "2014-07-01",
+                "fin": "2014-07-31",
+                "heurestravailles": 151,
+                "salairebrut": 3000,
+                "precomptepoleemploi": 74
+              },
+              {
+                "date": 2014,
+                "debut": "2014-06-16",
+                "fin": "2014-06-31",
+                "heurestravailles": 75,
+                "salairebrut": 1500,
+                "precomptepoleemploi": 37
+              }
+            ]
+          }
+        },
+        {
+          "employeur": {
+            "nom": "Adminext",
+            "ville": "CDI",
+            "codepostal": "75019",
+            "siret": "49851512100032",
+            "ape": "6202A"
+          },
+          "emploi": {
+            "horairehebdo": 39,
+            "type": "CDI",
+            "date": 2014,
+            "debut": "2014-03-16",
+            "fin": "2014-06-08",
+            "details": [
+              {
+                "date": 2014,
+                "debut": "06-01-2014",
+                "fin": "06-08-2014",
+                "heurestravailles": 38,
+                "salairebrut": 1500,
+                "precomptepoleemploi": 18
+              },
+              {
+                "date": 2014,
+                "debut": "2014-05-01",
+                "fin": "2014-05-31",
+                "heurestravailles": 151,
+                "salairebrut": 6000,
+                "precomptepoleemploi": 74
+              },
+              {
+                "date": 2014,
+                "debut": "2014-04-01",
+                "fin": "2014-04-31",
+                "heurestravailles": 151,
+                "salairebrut": 6000,
+                "precomptepoleemploi": 74
+              },
+              {
+                "date": 2014,
+                "debut": "2014-03-16",
+                "fin": "2014-03-31",
+                "heurestravailles": 75,
+                "salairebrut": 3000,
+                "precomptepoleemploi": 37
+              }
+            ]
+          }
+        },
+        {
+          "employeur": {
+            "nom": "Islean Consulting",
+            "ville": "CDI",
+            "codepostal": "75019",
+            "siret": "50333553100029",
+            "ape": "7022Z"
+          },
+          "emploi": {
+            "horairehebdo": 39,
+            "type": "CDI",
+            "date": 2014,
+            "debut": "2014-01-01",
+            "fin": "2014-02-16",
+            "details": [
+              {
+                "date": 2014,
+                "debut": "2014-02-01",
+                "fin": "2014-02-16",
+                "heurestravailles": 75,
+                "salairebrut": 2000,
+                "precomptepoleemploi": 37
+              },
+              {
+                "date": 2014,
+                "debut": "2014-01-01",
+                "fin": "2014-01-31",
+                "heurestravailles": 151,
+                "salairebrut": 4000,
+                "precomptepoleemploi": 74
+              }
+            ]
+          }
+        },
+        {
+          "employeur": {
+            "nom": "my entreprise",
+            "ville": "Avelin",
+            "codepostal": "59710",
+            "siret": "50333553100035",
+            "ape": "7022Z"
+          },
+          "emploi": {
+            "horairehebdo": 5,
+            "type": "AE",
+            "date": 2014,
+            "debut": "2014-01-01",
+            "fin": "2014-06-30",
+            "details": [
+              {
+                "date": 2014,
+                "debut": "2014-01-01",
+                "fin": "2014-01-30",
+                "heurestravailles": 20,
+                "salairebrut": 200,
+                "precomptepoleemploi": 5
+              },
+              {
+                "date": 2014,
+                "debut": "2014-02-01",
+                "fin": "2014-02-30",
+                "heurestravailles": 20,
+                "salairebrut": 200,
+                "precomptepoleemploi": 5
+              },
+              {
+                "date": 2014,
+                "debut": "2014-03-01",
+                "fin": "2014-03-31",
+                "heurestravailles": 20,
+                "salairebrut": 200,
+                "precomptepoleemploi": 5
+              },
+              {
+                "date": 2014,
+                "debut": "2014-04-01",
+                "fin": "2014-04-31",
+                "heurestravailles": 20,
+                "salairebrut": 200,
+                "precomptepoleemploi": 5
+              },
+              {
+                "date": 2014,
+                "debut": "2014-05-01",
+                "fin": "2014-05-31",
+                "heurestravailles": 20,
+                "salairebrut": 200,
+                "precomptepoleemploi": 5
+              },
+              {
+                "date": 2014,
+                "debut": "2014-06-01",
+                "fin": "2014-06-31",
+                "heurestravailles": 20,
+                "salairebrut": 200,
+                "precomptepoleemploi": 5
+              }
+            ]
+          }
+        }
+      ],
+      "debitprestation": []
+    },
+    {
+      "id": 123456789012346,
+      "identification": {
+        "given_name": "Pierre",
+        "family_name": "Ratinger",
+        "gender": "male",
+        "birthplace": "46201",
+        "birthcountry": "99100",
+        "birthdate": "1962-09-12"
+      },
+      "emplois": [
+        {
+          "employeur": {
+            "nom": "IPNEOS",
+            "ville": "VALENCE",
+            "codepostal": "26000",
+            "siret": "42483900900091",
+            "ape": "9512Z"
+          },
+          "emploi": {
+            "horairehebdo": "35",
+            "type": "CDI",
+            "date": 2015,
+            "debut": "2015-12-01",
+            "fin": "2015-07-30",
+            "details": [
+              {
+                "date": 2015,
+                "debut": "2015-12-01",
+                "fin": "2015-12-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2015,
+                "debut": "2015-11-01",
+                "fin": "2015-11-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2015,
+                "debut": "2015-11-01",
+                "fin": "2015-11-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2015,
+                "debut": "2015-10-01",
+                "fin": "2015-10-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2015,
+                "debut": "2015-09-01",
+                "fin": "2015-09-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2015,
+                "debut": "2015-08-01",
+                "fin": "2015-08-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2015,
+                "debut": "2015-07-01",
+                "fin": "2015-07-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2015,
+                "debut": "2015-06-01",
+                "fin": "2015-06-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2015,
+                "debut": "2015-05-01",
+                "fin": "2015-05-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2015,
+                "debut": "2015-04-01",
+                "fin": "2015-04-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2015,
+                "debut": "2015-03-01",
+                "fin": "2015-03-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2015,
+                "debut": "2015-02-01",
+                "fin": "2015-02-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2015,
+                "debut": "2015-01-01",
+                "fin": "2015-01-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2014,
+                "debut": "2014-12-01",
+                "fin": "2014-12-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2014,
+                "debut": "2014-11-01",
+                "fin": "2014-11-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2014,
+                "debut": "2014-11-01",
+                "fin": "2014-11-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2014,
+                "debut": "2014-10-01",
+                "fin": "2014-10-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2014,
+                "debut": "2014-09-01",
+                "fin": "2014-09-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2014,
+                "debut": "2014-08-01",
+                "fin": "2014-08-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2014,
+                "debut": "2014-07-01",
+                "fin": "2014-07-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2014,
+                "debut": "2014-06-01",
+                "fin": "2014-06-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2014,
+                "debut": "2014-05-01",
+                "fin": "2014-05-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2014,
+                "debut": "2014-04-01",
+                "fin": "2014-04-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2014,
+                "debut": "2014-03-01",
+                "fin": "2014-03-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2014,
+                "debut": "2014-02-01",
+                "fin": "2014-02-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2014,
+                "debut": "2014-01-01",
+                "fin": "2014-01-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2013,
+                "debut": "2013-12-01",
+                "fin": "2013-12-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2013,
+                "debut": "2013-11-01",
+                "fin": "2013-11-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2013,
+                "debut": "2013-11-01",
+                "fin": "2013-11-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2013,
+                "debut": "2013-10-01",
+                "fin": "2013-10-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2013,
+                "debut": "2013-09-01",
+                "fin": "2013-09-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2013,
+                "debut": "2013-08-01",
+                "fin": "2013-08-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2013,
+                "debut": "2013-07-01",
+                "fin": "2013-07-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2013,
+                "debut": "2013-06-01",
+                "fin": "2013-06-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2013,
+                "debut": "2013-05-01",
+                "fin": "2013-05-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2013,
+                "debut": "2013-04-01",
+                "fin": "2013-04-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2013,
+                "debut": "2013-03-01",
+                "fin": "2013-03-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2013,
+                "debut": "2013-02-01",
+                "fin": "2013-02-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2013,
+                "debut": "2013-01-01",
+                "fin": "2013-01-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2011,
+                "debut": "2011-12-01",
+                "fin": "2011-12-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2011,
+                "debut": "2011-11-01",
+                "fin": "2011-11-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2011,
+                "debut": "2011-11-01",
+                "fin": "2011-11-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2011,
+                "debut": "2011-10-01",
+                "fin": "2011-10-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2011,
+                "debut": "2011-09-01",
+                "fin": "2011-09-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2011,
+                "debut": "2011-08-01",
+                "fin": "2011-08-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2011,
+                "debut": "2011-07-01",
+                "fin": "2011-07-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2011,
+                "debut": "2011-06-01",
+                "fin": "2011-06-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2011,
+                "debut": "2011-05-01",
+                "fin": "2011-05-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2011,
+                "debut": "2011-04-01",
+                "fin": "2011-04-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2011,
+                "debut": "2011-03-01",
+                "fin": "2011-03-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2011,
+                "debut": "2011-02-01",
+                "fin": "2011-02-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              },
+              {
+                "date": 2011,
+                "debut": "2011-01-01",
+                "fin": "2011-01-30",
+                "heurestravailles": 166,
+                "salairebrut": 2558,
+                "precomptepoleemploi": 99
+              }
+            ]
+          }
+        }
+      ],
+      "debitprestation": [
+        {
+          "annee": 2011,
+          "fin": "2011-12-30",
+          "debut": "2011-12-01",
+          "montant": "2344",
+          "type": "ARE"
+        },
+        {
+          "annee": 2011,
+          "fin": "2011-11-30",
+          "debut": "2011-11-01",
+          "montant": "2344",
+          "type": "ARE"
+        },
+        {
+          "annee": 2011,
+          "fin": "2011-10-30",
+          "debut": "2011-10-01",
+          "montant": "2344",
+          "type": "ARE"
+        },
+        {
+          "annee": 2011,
+          "fin": "2011-09-30",
+          "debut": "2011-09-01",
+          "montant": "2344",
+          "type": "ARE"
+        },
+        {
+          "annee": 2011,
+          "fin": "2011-08-30",
+          "debut": "2011-08-01",
+          "montant": "2344",
+          "type": "ARE"
+        },
+        {
+          "annee": 2011,
+          "fin": "2011-07-30",
+          "debut": "2011-07-01",
+          "montant": "2344",
+          "type": "ARE"
+        },
+        {
+          "annee": 2011,
+          "fin": "2011-06-30",
+          "debut": "2011-06-01",
+          "montant": "2344",
+          "type": "ARE"
+        },
+        {
+          "annee": 2011,
+          "fin": "2011-05-30",
+          "debut": "2011-05-01",
+          "montant": "2344",
+          "type": "ARE"
+        },
+        {
+          "annee": 2011,
+          "fin": "2011-04-30",
+          "debut": "2011-04-01",
+          "montant": "2344",
+          "type": "ARE"
+        },
+        {
+          "annee": 2011,
+          "fin": "2011-03-30",
+          "debut": "2011-03-01",
+          "montant": "2344",
+          "type": "ARE"
+        },
+        {
+          "annee": 2011,
+          "fin": "2011-02-30",
+          "debut": "2011-02-01",
+          "montant": "2344",
+          "type": "ARE"
+        },
+        {
+          "annee": 2011,
+          "fin": "2011-01-30",
+          "debut": "2011-01-01",
+          "montant": "2344",
+          "type": "ARE"
+        }
+      ]
+    },
+    {
+      "id": 123456789012347,
+      "identification": {
+        "given_name": "Sonia",
+        "family_name": "Ramala",
+        "gender": "female",
+        "birthplace": "78490",
+        "birthcountry": "99100",
+        "birthdate": "1991-05-21"
+      },
+      "emplois": [
+        {
+          "employeur": {
+            "nom": "PASCAL COSTE COIFFURE",
+            "ville": "NICE",
+            "codepostal": "06000",
+            "siret": "44033947100011",
+            "ape": "9602A"
+          },
+          "emploi": {
+            "horairehebdo": 35,
+            "type": "CDD",
+            "date": 2015,
+            "debut": "2015-02-01",
+            "fin": "2015-04-30",
+            "details": [
+              {
+                "date": 2015,
+                "debut": "2015-02-01",
+                "fin": "2015-02-31",
+                "heurestravailles": 151,
+                "salairebrut": 2000,
+                "precomptepoleemploi": 74
+              },
+              {
+                "date": 2015,
+                "debut": "2015-03-01",
+                "fin": "2015-03-31",
+                "heurestravailles": 151,
+                "salairebrut": 2000,
+                "precomptepoleemploi": 74
+              },
+              {
+                "date": 2015,
+                "debut": "2015-04-01",
+                "fin": "2015-04-31",
+                "heurestravailles": 151,
+                "salairebrut": 2000,
+                "precomptepoleemploi": 74
+              }
+            ]
+          }
+        },
+        {
+          "employeur": {
+            "nom": "DESIGN COIFFURE",
+            "ville": "SAINTE SAVINE",
+            "codepostal": "10300",
+            "siret": "81759148000014",
+            "ape": "9602A"
+          },
+          "emploi": {
+            "horairehebdo": 35,
+            "type": "CDD",
+            "date": 2014,
+            "debut": "2014-08-01",
+            "fin": "2014-12-30",
+            "details": [
+              {
+                "date": 2014,
+                "debut": "2014-08-01",
+                "fin": "2014-08-31",
+                "heurestravailles": 151,
+                "salairebrut": 2224,
+                "precomptepoleemploi": 74
+              },
+              {
+                "date": 2014,
+                "debut": "2014-09-01",
+                "fin": "2014-09-31",
+                "heurestravailles": 151,
+                "salairebrut": 2224,
+                "precomptepoleemploi": 74
+              },
+              {
+                "date": 2014,
+                "debut": "2014-10-01",
+                "fin": "2014-10-31",
+                "heurestravailles": 151,
+                "salairebrut": 2224,
+                "precomptepoleemploi": 74
+              },
+              {
+                "date": 2014,
+                "debut": "2014-11-01",
+                "fin": "2014-11-31",
+                "heurestravailles": 151,
+                "salairebrut": 2224,
+                "precomptepoleemploi": 74
+              },
+              {
+                "date": 2014,
+                "debut": "2014-12-01",
+                "fin": "2014-12-31",
+                "heurestravailles": 151,
+                "salairebrut": 2224,
+                "precomptepoleemploi": 74
+              }
+            ]
+          }
+        },
+        {
+          "employeur": {
+            "nom": "LES MOUSTACHES DU BERRY",
+            "ville": "VIERZON",
+            "codepostal": "18100",
+            "siret": "80420851000011",
+            "ape": "9499Z"
+          },
+          "emploi": {
+            "horairehebdo": 35,
+            "type": "Service Civique",
+            "date": 2014,
+            "debut": "2014-02-01",
+            "fin": "2014-08-30",
+            "details": [
+              {
+                "date": 2014,
+                "debut": "2014-02-01",
+                "fin": "2014-02-31",
+                "heurestravailles": 151,
+                "salairebrut": 1000,
+                "precomptepoleemploi": 30
+              },
+              {
+                "date": 2014,
+                "debut": "2014-03-01",
+                "fin": "2014-03-31",
+                "heurestravailles": 151,
+                "salairebrut": 1000,
+                "precomptepoleemploi": 30
+              },
+              {
+                "date": 2014,
+                "debut": "2014-04-01",
+                "fin": "2014-04-31",
+                "heurestravailles": 151,
+                "salairebrut": 1000,
+                "precomptepoleemploi": 30
+              },
+              {
+                "date": 2014,
+                "debut": "2014-05-01",
+                "fin": "2014-05-31",
+                "heurestravailles": 151,
+                "salairebrut": 1000,
+                "precomptepoleemploi": 30
+              },
+              {
+                "date": 2014,
+                "debut": "2014-06-01",
+                "fin": "2014-06-31",
+                "heurestravailles": 151,
+                "salairebrut": 1000,
+                "precomptepoleemploi": 30
+              }
+            ]
+          }
+        }
+      ],
+      "debitprestation": []
+    }
+  ],
+  "retraite": [
+    {
+      "id": 123456789012345,
+      "identification": {
+        "given_name": "Eric",
+        "family_name": "Mercier",
+        "gender": "male",
+        "birthplace": "49007",
+        "birthdepartment": "66",
+        "birthcountry": "99100",
+        "birthdate": "1981-04-21"
+      },
+      "retraitedebase": {
+        "trimestrestotal": "85",
+        "pointtotal": "206",
+        "regimes": [
+          {
+            "type": "Salarié du régime général de sécurité sociale (CNAV)",
+            "nombretrimestre": 81,
+            "derniereannee": 2015,
+            "points": 0,
+            "details": [
+              {
+                "annee": 2015,
+                "debut": "2015-01-01",
+                "fin": "2015-01-15",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 1585,
+                  "trimestres": 1
+                }
+              },
+              {
+                "annee": 2014,
+                "debut": "2014-06-16",
+                "fin": "2014-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 20339,
+                  "trimestres": 2
+                }
+              },
+              {
+                "annee": 2014,
+                "debut": "2014-03-13",
+                "fin": "2014-06-06",
+                "specifiques": {
+                  "employeur": "Adminext",
+                  "salaireannuel": 6675,
+                  "trimestres": 1
+                }
+              },
+              {
+                "annee": 2014,
+                "debut": "2014-01-01",
+                "fin": "2014-02-20",
+                "specifiques": {
+                  "employeur": "Islean Consulting",
+                  "salaireannuel": 5215,
+                  "trimestres": 1
+                }
+              },
+              {
+                "annee": 2013,
+                "debut": "2013-06-25",
+                "fin": "2013-12-31",
+                "specifiques": {
+                  "employeur": "Islean Consulting",
+                  "salaireannuel": 19133,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2011,
+                "debut": "2011-01-01",
+                "fin": "2011-05-11",
+                "specifiques": {
+                  "employeur": "Bred Banque Populaire",
+                  "salaireannuel": 12864,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2010,
+                "debut": "2010-09-13",
+                "fin": "2010-12-31",
+                "specifiques": {
+                  "employeur": "Bred Banque Populaire",
+                  "salaireannuel": 10386,
+                  "trimestres": 1
+                }
+              },
+              {
+                "annee": 2010,
+                "debut": "2010-01-01",
+                "fin": "2010-09-01",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 18464,
+                  "trimestres": 3
+                }
+              },
+              {
+                "annee": 2010,
+                "debut": "2010-06-01",
+                "fin": "2010-07-31",
+                "specifiques": {
+                  "employeur": "Bred Banque Populaire",
+                  "salaireannuel": 3462,
+                  "trimestres": 0
+                }
+              },
+              {
+                "annee": 2009,
+                "debut": "2009-01-01",
+                "fin": "2009-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 24586,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2008,
+                "debut": "2008-01-01",
+                "fin": "2008-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 33276,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2008,
+                "debut": "2008-01-01",
+                "fin": "2008-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 32568,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2006,
+                "debut": "2006-01-01",
+                "fin": "2006-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 31068,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2005,
+                "debut": "2005-01-01",
+                "fin": "2005-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 30192,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2004,
+                "debut": "2004-01-01",
+                "fin": "2004-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 29712,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2003,
+                "debut": "2003-01-01",
+                "fin": "2003-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 29184,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2002,
+                "debut": "2002-01-01",
+                "fin": "2002-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 28224,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2001,
+                "debut": "2001-01-01",
+                "fin": "2001-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 28000,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2000,
+                "debut": "2000-01-01",
+                "fin": "2000-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 28000,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 1999,
+                "debut": "1999-01-01",
+                "fin": "1999-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 28000,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 1998,
+                "debut": "1998-01-01",
+                "fin": "1998-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "salaireannuel": 28000,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 1997,
+                "debut": "1997-01-01",
+                "fin": "1997-12-31",
+                "specifiques": {
+                  "employeur": "Sycomore",
+                  "salaireannuel": 28000,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 1996,
+                "debut": "1996-01-01",
+                "fin": "1996-12-31",
+                "specifiques": {
+                  "employeur": "Sycomore",
+                  "salaireannuel": 28000,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 1995,
+                "debut": "1995-01-01",
+                "fin": "1995-12-31",
+                "specifiques": {
+                  "employeur": "Sycomore",
+                  "salaireannuel": 28000,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 1994,
+                "debut": "1994-01-01",
+                "fin": "1994-12-31",
+                "specifiques": {
+                  "employeur": "Schneider Electric Industries SAS",
+                  "salaireannuel": 3200,
+                  "trimestres": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "CIPAV",
+            "nombretrimestre": 5,
+            "derniereannee": 2012,
+            "points": 206,
+            "details": [
+              {
+                "annee": 2012,
+                "debut": "2012-01-01",
+                "fin": "2012-12-31",
+                "specifiques": {
+                  "employeur": "-",
+                  "salaireannuel": "-",
+                  "trimestres": 4,
+                  "points": 153.5
+                }
+              },
+              {
+                "annee": 2011,
+                "debut": "2011-01-07",
+                "fin": "2012-12-31",
+                "specifiques": {
+                  "employeur": "-",
+                  "salaireannuel": "-",
+                  "trimestres": 1,
+                  "points": 52.5
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "retraitecomplementaire": {
+        "pointtotal": 39194.62,
+        "regimes": [
+          {
+            "type": "ARRCO",
+            "derniereannee": 2014,
+            "points": 2837.62,
+            "details": [
+              {
+                "annee": 2014,
+                "debut": "2014-06-16",
+                "fin": "2014-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "points": 81.31
+                }
+              },
+              {
+                "annee": 2014,
+                "debut": "2014-03-18",
+                "fin": "2014-06-06",
+                "specifiques": {
+                  "employeur": "Adminext",
+                  "points": 26.68
+                }
+              },
+              {
+                "annee": 2014,
+                "debut": "2014-01-01",
+                "fin": "2014-02-20",
+                "specifiques": {
+                  "employeur": "Islean Consulting",
+                  "points": 20.85
+                }
+              },
+              {
+                "annee": 2013,
+                "debut": "2013-06-25",
+                "fin": "2013-12-31",
+                "specifiques": {
+                  "employeur": "Islean Consulting",
+                  "points": 75.38
+                }
+              },
+              {
+                "annee": 2012,
+                "debut": "2012-01-01",
+                "fin": "2012-12-31",
+                "specifiques": {
+                  "employeur": "CHOMAGE",
+                  "points": 120.69
+                }
+              },
+              {
+                "annee": 2011,
+                "debut": "2011-01-01",
+                "fin": "2011-05-11",
+                "specifiques": {
+                  "employeur": "Bred Banque Populaire",
+                  "points": 196.75
+                }
+              },
+              {
+                "annee": 2010,
+                "debut": "2010-07-01",
+                "fin": "2010-12-31",
+                "specifiques": {
+                  "employeur": "Bred Banque Populaire",
+                  "points": 209.16
+                }
+              },
+              {
+                "annee": 2010,
+                "debut": "2010-01-01",
+                "fin": "2010-09-09",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "points": 76.91
+                }
+              },
+              {
+                "annee": 2009,
+                "debut": "2009-01-01",
+                "fin": "2009-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "points": 103.74
+                }
+              },
+              {
+                "annee": 2008,
+                "debut": "2008-01-01",
+                "fin": "2008-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "points": 142.93
+                }
+              },
+              {
+                "annee": 2007,
+                "debut": "2007-01-01",
+                "fin": "2007-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "points": 142.94
+                }
+              },
+              {
+                "annee": 2006,
+                "debut": "2006-01-01",
+                "fin": "2006-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "points": 142.93
+                }
+              },
+              {
+                "annee": 2005,
+                "debut": "2005-01-01",
+                "fin": "2005-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "points": 143.09
+                }
+              },
+              {
+                "annee": 2004,
+                "debut": "2004-01-01",
+                "fin": "2004-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "points": 144.2
+                }
+              },
+              {
+                "annee": 2003,
+                "debut": "2003-01-01",
+                "fin": "2003-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "points": 144.89
+                }
+              },
+              {
+                "annee": 2002,
+                "debut": "2002-01-01",
+                "fin": "2002-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "points": 142.37
+                }
+              },
+              {
+                "annee": 2001,
+                "debut": "2001-01-01",
+                "fin": "2001-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "points": 140.16
+                }
+              },
+              {
+                "annee": 2000,
+                "debut": "2000-01-01",
+                "fin": "2000-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "points": 139.89
+                }
+              },
+              {
+                "annee": 1999,
+                "debut": "1999-01-01",
+                "fin": "1999-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "points": 145
+                }
+              },
+              {
+                "annee": 1998,
+                "debut": "1998-10-01",
+                "fin": "1998-12-31",
+                "specifiques": {
+                  "employeur": "Octo - Technology",
+                  "points": 34.77
+                }
+              },
+              {
+                "annee": 1998,
+                "debut": "1998-01-01",
+                "fin": "1998-09-30",
+                "specifiques": {
+                  "employeur": "Sycomore",
+                  "points": 101.2
+                }
+              },
+              {
+                "annee": 1997,
+                "debut": "1997-01-01",
+                "fin": "1997-12-31",
+                "specifiques": {
+                  "employeur": "Sycomore",
+                  "points": 126.5
+                }
+              },
+              {
+                "annee": 1996,
+                "debut": "1996-01-01",
+                "fin": "1996-12-31",
+                "specifiques": {
+                  "employeur": "Sycomore",
+                  "points": 118.32
+                }
+              },
+              {
+                "annee": 1995,
+                "debut": "1995-03-01",
+                "fin": "1995-12-31",
+                "specifiques": {
+                  "employeur": "Sycomore",
+                  "points": 89.3
+                }
+              },
+              {
+                "annee": 1994,
+                "debut": "1994-04-01",
+                "fin": "1994-09-30",
+                "specifiques": {
+                  "employeur": "Schneider Electric Industries SAS",
+                  "points": 27.5
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 123456789012346,
+      "identification": {
+        "given_name": "Pierre",
+        "family_name": "Ratinger",
+        "gender": "male",
+        "birthplace": "46201",
+        "birthcountry": "99100",
+        "birthdate": "1962-09-12"
+      },
+      "retraitedebase": {
+        "trimestrestotal": 143,
+        "pointtotal": 324,
+        "regimes": [
+          {
+            "type": "Cnav",
+            "nombretrimestre": 143,
+            "derniereannee": 2015,
+            "points": 324,
+            "details": [
+              {
+                "annee": 2015,
+                "debut": "2015-01-01",
+                "fin": "2015-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "salaireannuel": 35000,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2014,
+                "debut": "2014-01-01",
+                "fin": "2014-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "salaireannuel": 35000,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2013,
+                "debut": "2013-01-01",
+                "fin": "2013-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "salaireannuel": 35000,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2012,
+                "debut": "2012-01-01",
+                "fin": "2012-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "salaireannuel": 35000,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2011,
+                "debut": "2011-01-01",
+                "fin": "2011-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "salaireannuel": 35000,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2011,
+                "debut": "2011-01-01",
+                "fin": "2015-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "salaireannuel": 35000,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2011,
+                "debut": "2011-01-01",
+                "fin": "2015-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "salaireannuel": 35000,
+                  "trimestres": 4
+                }
+              },
+              {
+                "annee": 2011,
+                "debut": "2011-01-01",
+                "fin": "2015-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "salaireannuel": 35000,
+                  "trimestres": 4
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "retraitecomplementaire": {
+        "pointtotal": "3254",
+        "regimes": [
+          {
+            "type": "ARRCO",
+            "derniereannee": 2015,
+            "points": 2958,
+            "details": [
+              {
+                "annee": 2015,
+                "debut": "2015-01-01",
+                "fin": "2015-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "points": 110
+                }
+              },
+              {
+                "annee": 2014,
+                "debut": "2014-01-01",
+                "fin": "2014-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "points": 110
+                }
+              },
+              {
+                "annee": 2013,
+                "debut": "2013-01-01",
+                "fin": "2013-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "points": 110
+                }
+              },
+              {
+                "annee": 2012,
+                "debut": "2012-01-01",
+                "fin": "2012-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "points": 110
+                }
+              },
+              {
+                "annee": 2011,
+                "debut": "2011-01-01",
+                "fin": "2011-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "points": 110
+                }
+              },
+              {
+                "annee": 2011,
+                "debut": "2011-01-01",
+                "fin": "2015-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "points": 110
+                }
+              },
+              {
+                "annee": 2011,
+                "debut": "2011-01-01",
+                "fin": "2015-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "points": 110
+                }
+              },
+              {
+                "annee": 2011,
+                "debut": "2011-01-01",
+                "fin": "2015-12-31",
+                "specifiques": {
+                  "employeur": "IPNEOS",
+                  "points": 110
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 123456789012347,
+      "identification": {
+        "given_name": "Sonia",
+        "family_name": "Ramala",
+        "gender": "female",
+        "birthplace": "78490",
+        "birthcountry": "99100",
+        "birthdate": "1991-05-21"
+      },
+      "retraitedebase": {
+        "trimestrestotal": 2,
+        "pointtotal": 4,
+        "regimes": [
+          {
+            "type": "Cnav",
+            "nombretrimestre": 2,
+            "derniereannee": 2015,
+            "points": 4,
+            "details": [
+              {
+                "annee": 2015,
+                "debut": "2015-02-01",
+                "fin": "2015-06-31",
+                "specifiques": {
+                  "employeur": "PASCAL COSTE COIFFURE",
+                  "salaireannuel": 19000,
+                  "trimestres": 1
+                }
+              },
+              {
+                "annee": 2014,
+                "debut": "2014-08-01",
+                "fin": "2014-12-31",
+                "specifiques": {
+                  "employeur": "DESIGN COIFFURE",
+                  "salaireannuel": 22000,
+                  "trimestres": 1
+                }
+              },
+              {
+                "annee": 2014,
+                "debut": "2014-02-01",
+                "fin": "2014-06-31",
+                "specifiques": {
+                  "employeur": "LES MOUSTACHES DU BERRY",
+                  "salaireannuel": 12000,
+                  "trimestres": 1
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "retraitecomplementaire": {
+        "trimestrestotal": "STRING",
+        "pointtotal": "STRING",
+        "regimes": []
+      }
+    }
+  ],
+  "formation": [
+    {
+      "id": 123456789012345,
+      "identification": {
+        "given_name": "Eric",
+        "family_name": "Mercier",
+        "gender": "male",
+        "birthplace": "49007",
+        "birthdepartment": "66",
+        "birthcountry": "99100",
+        "birthdate": "1981-04-21"
+      },
+      "compteheure": {
+        "solde": "STRING",
+        "credits": [
+          {
+            "valeur": "STRING",
+            "date": "STRING",
+            "debut": "STRING",
+            "fin": "STRING",
+            "entreprise": {
+              "nom": "STRING",
+              "siret": "STRING"
             }
-         ],
-         "debitprestation":[
-
-         ]
-      },
-      {
-         "id":123456789012346,
-         "identification":{
-            "given_name":"Pierre",
-            "family_name":"Ratinger",
-            "gender":"male",
-            "birthplace":"46201",
-            "birthcountry":"99100",
-            "birthdate":"1962-09-12"
-         },
-         "emplois":[
-            {
-               "employeur":{
-                  "nom":"IPNEOS",
-                  "ville":"VALENCE",
-                  "codepostal":"26000",
-                  "siret":"42483900900091",
-                  "ape":"9512Z"
-               },
-               "emploi":{
-                  "horairehebdo":"35",
-                  "type":"CDI",
-                  "date":2015,
-                  "debut":"2015-12-01",
-                  "fin":"2015-07-30",
-                  "details":[
-                     {
-                        "date":2015,
-                        "debut":"2015-12-01",
-                        "fin":"2015-12-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-11-01",
-                        "fin":"2015-11-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-11-01",
-                        "fin":"2015-11-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-10-01",
-                        "fin":"2015-10-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-09-01",
-                        "fin":"2015-09-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-08-01",
-                        "fin":"2015-08-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-07-01",
-                        "fin":"2015-07-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-06-01",
-                        "fin":"2015-06-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-05-01",
-                        "fin":"2015-05-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-04-01",
-                        "fin":"2015-04-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-03-01",
-                        "fin":"2015-03-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-02-01",
-                        "fin":"2015-02-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-01-01",
-                        "fin":"2015-01-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-12-01",
-                        "fin":"2014-12-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-11-01",
-                        "fin":"2014-11-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-11-01",
-                        "fin":"2014-11-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-10-01",
-                        "fin":"2014-10-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-09-01",
-                        "fin":"2014-09-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-08-01",
-                        "fin":"2014-08-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-07-01",
-                        "fin":"2014-07-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-06-01",
-                        "fin":"2014-06-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-05-01",
-                        "fin":"2014-05-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-04-01",
-                        "fin":"2014-04-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-03-01",
-                        "fin":"2014-03-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-02-01",
-                        "fin":"2014-02-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-01-01",
-                        "fin":"2014-01-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2013,
-                        "debut":"2013-12-01",
-                        "fin":"2013-12-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2013,
-                        "debut":"2013-11-01",
-                        "fin":"2013-11-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2013,
-                        "debut":"2013-11-01",
-                        "fin":"2013-11-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2013,
-                        "debut":"2013-10-01",
-                        "fin":"2013-10-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2013,
-                        "debut":"2013-09-01",
-                        "fin":"2013-09-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2013,
-                        "debut":"2013-08-01",
-                        "fin":"2013-08-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2013,
-                        "debut":"2013-07-01",
-                        "fin":"2013-07-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2013,
-                        "debut":"2013-06-01",
-                        "fin":"2013-06-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2013,
-                        "debut":"2013-05-01",
-                        "fin":"2013-05-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2013,
-                        "debut":"2013-04-01",
-                        "fin":"2013-04-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2013,
-                        "debut":"2013-03-01",
-                        "fin":"2013-03-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2013,
-                        "debut":"2013-02-01",
-                        "fin":"2013-02-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2013,
-                        "debut":"2013-01-01",
-                        "fin":"2013-01-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2011,
-                        "debut":"2011-12-01",
-                        "fin":"2011-12-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2011,
-                        "debut":"2011-11-01",
-                        "fin":"2011-11-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2011,
-                        "debut":"2011-11-01",
-                        "fin":"2011-11-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2011,
-                        "debut":"2011-10-01",
-                        "fin":"2011-10-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2011,
-                        "debut":"2011-09-01",
-                        "fin":"2011-09-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2011,
-                        "debut":"2011-08-01",
-                        "fin":"2011-08-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2011,
-                        "debut":"2011-07-01",
-                        "fin":"2011-07-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2011,
-                        "debut":"2011-06-01",
-                        "fin":"2011-06-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2011,
-                        "debut":"2011-05-01",
-                        "fin":"2011-05-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2011,
-                        "debut":"2011-04-01",
-                        "fin":"2011-04-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2011,
-                        "debut":"2011-03-01",
-                        "fin":"2011-03-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2011,
-                        "debut":"2011-02-01",
-                        "fin":"2011-02-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2011,
-                        "debut":"2011-01-01",
-                        "fin":"2011-01-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     }
-                  ]
-               }
+          }
+        ],
+        "debits": [
+          {
+            "date": "STRING",
+            "satus": "STRING",
+            "formation": {
+              "nom": "STRING",
+              "id": "STRING",
+              "editeur": "STRING",
+              "niveau": "STRING",
+              "ape": "STRING"
             }
-         ],
-         "debitprestation":[
-            {
-               "annee":2011,
-               "fin":"2011-12-30",
-               "debut":"2011-12-01",
-               "montant":"2344",
-               "type":"ARE"
-            },
-            {
-               "annee":2011,
-               "fin":"2011-11-30",
-               "debut":"2011-11-01",
-               "montant":"2344",
-               "type":"ARE"
-            },
-            {
-               "annee":2011,
-               "fin":"2011-10-30",
-               "debut":"2011-10-01",
-               "montant":"2344",
-               "type":"ARE"
-            },
-            {
-               "annee":2011,
-               "fin":"2011-09-30",
-               "debut":"2011-09-01",
-               "montant":"2344",
-               "type":"ARE"
-            },
-            {
-               "annee":2011,
-               "fin":"2011-08-30",
-               "debut":"2011-08-01",
-               "montant":"2344",
-               "type":"ARE"
-            },
-            {
-               "annee":2011,
-               "fin":"2011-07-30",
-               "debut":"2011-07-01",
-               "montant":"2344",
-               "type":"ARE"
-            },
-            {
-               "annee":2011,
-               "fin":"2011-06-30",
-               "debut":"2011-06-01",
-               "montant":"2344",
-               "type":"ARE"
-            },
-            {
-               "annee":2011,
-               "fin":"2011-05-30",
-               "debut":"2011-05-01",
-               "montant":"2344",
-               "type":"ARE"
-            },
-            {
-               "annee":2011,
-               "fin":"2011-04-30",
-               "debut":"2011-04-01",
-               "montant":"2344",
-               "type":"ARE"
-            },
-            {
-               "annee":2011,
-               "fin":"2011-03-30",
-               "debut":"2011-03-01",
-               "montant":"2344",
-               "type":"ARE"
-            },
-            {
-               "annee":2011,
-               "fin":"2011-02-30",
-               "debut":"2011-02-01",
-               "montant":"2344",
-               "type":"ARE"
-            },
-            {
-               "annee":2011,
-               "fin":"2011-01-30",
-               "debut":"2011-01-01",
-               "montant":"2344",
-               "type":"ARE"
+          }
+        ]
+      }
+    },
+    {
+      "id": 123456789012346,
+      "identification": {
+        "given_name": "Pierre",
+        "family_name": "Ratinger",
+        "gender": "male",
+        "birthplace": "46201",
+        "birthcountry": "99100",
+        "birthdate": "1962-09-12"
+      },
+      "compteheure": {
+        "solde": 46,
+        "credits": [
+          {
+            "valeur": 24,
+            "date": "2015",
+            "debut": "2015-01-01",
+            "fin": "2015-12-31",
+            "entreprise": {
+              "nom": "IPNEOS",
+              "siret": "42483900900091"
             }
-         ]
-      },
-      {
-         "id":123456789012347,
-         "identification":{
-            "given_name":"Sonia",
-            "family_name":"Ramala",
-            "gender":"female",
-            "birthplace":"78490",
-            "birthcountry":"99100",
-            "birthdate":"1991-05-21"
-         },
-         "emplois":[
-            {
-               "employeur":{
-                  "nom":"PASCAL COSTE COIFFURE",
-                  "ville":"NICE",
-                  "codepostal":"06000",
-                  "siret":"44033947100011",
-                  "ape":"9602A"
-               },
-               "emploi":{
-                  "horairehebdo":35,
-                  "type":"CDD",
-                  "date":2015,
-                  "debut":"2015-02-01",
-                  "fin":"2015-04-30",
-                  "details":[
-                     {
-                        "date":2015,
-                        "debut":"2015-02-01",
-                        "fin":"2015-02-31",
-                        "heurestravailles":151,
-                        "salairebrut":2000,
-                        "precomptepoleemploi":74
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-03-01",
-                        "fin":"2015-03-31",
-                        "heurestravailles":151,
-                        "salairebrut":2000,
-                        "precomptepoleemploi":74
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-04-01",
-                        "fin":"2015-04-31",
-                        "heurestravailles":151,
-                        "salairebrut":2000,
-                        "precomptepoleemploi":74
-                     }
-                  ]
-               }
-            },
-            {
-               "employeur":{
-                  "nom":"DESIGN COIFFURE",
-                  "ville":"SAINTE SAVINE",
-                  "codepostal":"10300",
-                  "siret":"81759148000014",
-                  "ape":"9602A"
-               },
-               "emploi":{
-                  "horairehebdo":35,
-                  "type":"CDD",
-                  "date":2014,
-                  "debut":"2014-08-01",
-                  "fin":"2014-12-30",
-                  "details":[
-                     {
-                        "date":2014,
-                        "debut":"2014-08-01",
-                        "fin":"2014-08-31",
-                        "heurestravailles":151,
-                        "salairebrut":2224,
-                        "precomptepoleemploi":74
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-09-01",
-                        "fin":"2014-09-31",
-                        "heurestravailles":151,
-                        "salairebrut":2224,
-                        "precomptepoleemploi":74
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-10-01",
-                        "fin":"2014-10-31",
-                        "heurestravailles":151,
-                        "salairebrut":2224,
-                        "precomptepoleemploi":74
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-11-01",
-                        "fin":"2014-11-31",
-                        "heurestravailles":151,
-                        "salairebrut":2224,
-                        "precomptepoleemploi":74
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-12-01",
-                        "fin":"2014-12-31",
-                        "heurestravailles":151,
-                        "salairebrut":2224,
-                        "precomptepoleemploi":74
-                     }
-                  ]
-               }
-            },
-            {
-               "employeur":{
-                  "nom":"LES MOUSTACHES DU BERRY",
-                  "ville":"VIERZON",
-                  "codepostal":"18100",
-                  "siret":"80420851000011",
-                  "ape":"9499Z"
-               },
-               "emploi":{
-                  "horairehebdo":35,
-                  "type":"Service Civique",
-                  "date":2014,
-                  "debut":"2014-02-01",
-                  "fin":"2014-08-30",
-                  "details":[
-                     {
-                        "date":2014,
-                        "debut":"2014-02-01",
-                        "fin":"2014-02-31",
-                        "heurestravailles":151,
-                        "salairebrut":1000,
-                        "precomptepoleemploi":30
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-03-01",
-                        "fin":"2014-03-31",
-                        "heurestravailles":151,
-                        "salairebrut":1000,
-                        "precomptepoleemploi":30
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-04-01",
-                        "fin":"2014-04-31",
-                        "heurestravailles":151,
-                        "salairebrut":1000,
-                        "precomptepoleemploi":30
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-05-01",
-                        "fin":"2014-05-31",
-                        "heurestravailles":151,
-                        "salairebrut":1000,
-                        "precomptepoleemploi":30
-                     },
-                     {
-                        "date":2014,
-                        "debut":"2014-06-01",
-                        "fin":"2014-06-31",
-                        "heurestravailles":151,
-                        "salairebrut":1000,
-                        "precomptepoleemploi":30
-                     }
-                  ]
-               }
+          },
+          {
+            "valeur": 24,
+            "date": "2014",
+            "debut": "2014-01-01",
+            "fin": "2014-12-31",
+            "entreprise": {
+              "nom": "IPNEOS",
+              "siret": "42483900900091"
             }
-         ],
-         "debitprestation":[
-
-         ]
+          },
+          {
+            "valeur": 24,
+            "date": "2013",
+            "debut": "2013-01-01",
+            "fin": "2013-12-31",
+            "entreprise": {
+              "nom": "IPNEOS",
+              "siret": "42483900900091"
+            }
+          },
+          {
+            "valeur": 24,
+            "date": "2012",
+            "debut": "2012-01-01",
+            "fin": "2012-12-31",
+            "entreprise": {
+              "nom": "IPNEOS",
+              "siret": "42483900900091"
+            }
+          }
+        ],
+        "debits": [
+          {
+            "date": "2013",
+            "debut": "2013-08-01",
+            "fin": "2013-08-06",
+            "satus": "done",
+            "valeur": 50,
+            "formation": {
+              "nom": "bureautique office",
+              "id": "12345",
+              "editeur": "CFORPRO",
+              "niveau": 4,
+              "ape": [
+                "62.01Z"
+              ]
+            }
+          }
+        ]
       }
-   ],
-   "retraite":[
-      {
-         "id":123456789012345,
-         "identification":{
-            "given_name":"Eric",
-            "family_name":"Mercier",
-            "gender":"male",
-            "birthplace":"49007",
-            "birthdepartment":"66",
-            "birthcountry":"99100",
-            "birthdate":"1981-04-21"
-         },
-         "retraitedebase":{
-            "trimestrestotal":"85",
-            "pointtotal":"206",
-            "regimes":[
-               {
-                  "type":"Salarié du régime général de sécurité sociale (CNAV)",
-                  "nombretrimestre":81,
-                  "derniereannee":2015,
-                  "points":0,
-                  "details":[
-                     {
-                        "annee":2015,
-                        "debut":"2015-01-01",
-                        "fin":"2015-01-15",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":1585,
-                           "trimestres":1
-                        }
-                     },
-                     {
-                        "annee":2014,
-                        "debut":"2014-06-16",
-                        "fin":"2014-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":20339,
-                           "trimestres":2
-                        }
-                     },
-                     {
-                        "annee":2014,
-                        "debut":"2014-03-13",
-                        "fin":"2014-06-06",
-                        "specifiques":{
-                           "employeur":"Adminext",
-                           "salaireannuel":6675,
-                           "trimestres":1
-                        }
-                     },
-                     {
-                        "annee":2014,
-                        "debut":"2014-01-01",
-                        "fin":"2014-02-20",
-                        "specifiques":{
-                           "employeur":"Islean Consulting",
-                           "salaireannuel":5215,
-                           "trimestres":1
-                        }
-                     },
-                     {
-                        "annee":2013,
-                        "debut":"2013-06-25",
-                        "fin":"2013-12-31",
-                        "specifiques":{
-                           "employeur":"Islean Consulting",
-                           "salaireannuel":19133,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2011,
-                        "debut":"2011-01-01",
-                        "fin":"2011-05-11",
-                        "specifiques":{
-                           "employeur":"Bred Banque Populaire",
-                           "salaireannuel":12864,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2010,
-                        "debut":"2010-09-13",
-                        "fin":"2010-12-31",
-                        "specifiques":{
-                           "employeur":"Bred Banque Populaire",
-                           "salaireannuel":10386,
-                           "trimestres":1
-                        }
-                     },
-                     {
-                        "annee":2010,
-                        "debut":"2010-01-01",
-                        "fin":"2010-09-01",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":18464,
-                           "trimestres":3
-                        }
-                     },
-                     {
-                        "annee":2010,
-                        "debut":"2010-06-01",
-                        "fin":"2010-07-31",
-                        "specifiques":{
-                           "employeur":"Bred Banque Populaire",
-                           "salaireannuel":3462,
-                           "trimestres":0
-                        }
-                     },
-                     {
-                        "annee":2009,
-                        "debut":"2009-01-01",
-                        "fin":"2009-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":24586,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2008,
-                        "debut":"2008-01-01",
-                        "fin":"2008-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":33276,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2008,
-                        "debut":"2008-01-01",
-                        "fin":"2008-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":32568,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2006,
-                        "debut":"2006-01-01",
-                        "fin":"2006-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":31068,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2005,
-                        "debut":"2005-01-01",
-                        "fin":"2005-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":30192,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2004,
-                        "debut":"2004-01-01",
-                        "fin":"2004-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":29712,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2003,
-                        "debut":"2003-01-01",
-                        "fin":"2003-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":29184,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2002,
-                        "debut":"2002-01-01",
-                        "fin":"2002-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":28224,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2001,
-                        "debut":"2001-01-01",
-                        "fin":"2001-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":28000,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2000,
-                        "debut":"2000-01-01",
-                        "fin":"2000-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":28000,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":1999,
-                        "debut":"1999-01-01",
-                        "fin":"1999-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":28000,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":1998,
-                        "debut":"1998-01-01",
-                        "fin":"1998-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "salaireannuel":28000,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":1997,
-                        "debut":"1997-01-01",
-                        "fin":"1997-12-31",
-                        "specifiques":{
-                           "employeur":"Sycomore",
-                           "salaireannuel":28000,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":1996,
-                        "debut":"1996-01-01",
-                        "fin":"1996-12-31",
-                        "specifiques":{
-                           "employeur":"Sycomore",
-                           "salaireannuel":28000,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":1995,
-                        "debut":"1995-01-01",
-                        "fin":"1995-12-31",
-                        "specifiques":{
-                           "employeur":"Sycomore",
-                           "salaireannuel":28000,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":1994,
-                        "debut":"1994-01-01",
-                        "fin":"1994-12-31",
-                        "specifiques":{
-                           "employeur":"Schneider Electric Industries SAS",
-                           "salaireannuel":3200,
-                           "trimestres":4
-                        }
-                     }
-                  ]
-               },
-               {
-                  "type":"CIPAV",
-                  "nombretrimestre":5,
-                  "derniereannee":2012,
-                  "points":206,
-                  "details":[
-                     {
-                        "annee":2012,
-                        "debut":"2012-01-01",
-                        "fin":"2012-12-31",
-                        "specifiques":{
-                           "employeur":"-",
-                           "salaireannuel":"-",
-                           "trimestres":4,
-                           "points":153.5
-                        }
-                     },
-                     {
-                        "annee":2011,
-                        "debut":"2011-01-07",
-                        "fin":"2012-12-31",
-                        "specifiques":{
-                           "employeur":"-",
-                           "salaireannuel":"-",
-                           "trimestres":1,
-                           "points":52.5
-                        }
-                     }
-                  ]
-               }
-            ]
-         },
-         "retraitecomplementaire":{
-            "pointtotal":39194.62,
-            "regimes":[
-               {
-                  "type":"ARRCO",
-                  "derniereannee":2014,
-                  "points":2837.62,
-                  "details":[
-                     {
-                        "annee":2014,
-                        "debut":"2014-06-16",
-                        "fin":"2014-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "points":81.31
-                        }
-                     },
-                     {
-                        "annee":2014,
-                        "debut":"2014-03-18",
-                        "fin":"2014-06-06",
-                        "specifiques":{
-                           "employeur":"Adminext",
-                           "points":26.68
-                        }
-                     },
-                     {
-                        "annee":2014,
-                        "debut":"2014-01-01",
-                        "fin":"2014-02-20",
-                        "specifiques":{
-                           "employeur":"Islean Consulting",
-                           "points":20.85
-                        }
-                     },
-                     {
-                        "annee":2013,
-                        "debut":"2013-06-25",
-                        "fin":"2013-12-31",
-                        "specifiques":{
-                           "employeur":"Islean Consulting",
-                           "points":75.38
-                        }
-                     },
-                     {
-                        "annee":2012,
-                        "debut":"2012-01-01",
-                        "fin":"2012-12-31",
-                        "specifiques":{
-                           "employeur":"CHOMAGE",
-                           "points":120.69
-                        }
-                     },
-                     {
-                        "annee":2011,
-                        "debut":"2011-01-01",
-                        "fin":"2011-05-11",
-                        "specifiques":{
-                           "employeur":"Bred Banque Populaire",
-                           "points":196.75
-                        }
-                     },
-                     {
-                        "annee":2010,
-                        "debut":"2010-07-01",
-                        "fin":"2010-12-31",
-                        "specifiques":{
-                           "employeur":"Bred Banque Populaire",
-                           "points":209.16
-                        }
-                     },
-                     {
-                        "annee":2010,
-                        "debut":"2010-01-01",
-                        "fin":"2010-09-09",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "points":76.91
-                        }
-                     },
-                     {
-                        "annee":2009,
-                        "debut":"2009-01-01",
-                        "fin":"2009-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "points":103.74
-                        }
-                     },
-                     {
-                        "annee":2008,
-                        "debut":"2008-01-01",
-                        "fin":"2008-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "points":142.93
-                        }
-                     },
-                     {
-                        "annee":2007,
-                        "debut":"2007-01-01",
-                        "fin":"2007-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "points":142.94
-                        }
-                     },
-                     {
-                        "annee":2006,
-                        "debut":"2006-01-01",
-                        "fin":"2006-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "points":142.93
-                        }
-                     },
-                     {
-                        "annee":2005,
-                        "debut":"2005-01-01",
-                        "fin":"2005-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "points":143.09
-                        }
-                     },
-                     {
-                        "annee":2004,
-                        "debut":"2004-01-01",
-                        "fin":"2004-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "points":144.20
-                        }
-                     },
-                     {
-                        "annee":2003,
-                        "debut":"2003-01-01",
-                        "fin":"2003-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "points":144.89
-                        }
-                     },
-                     {
-                        "annee":2002,
-                        "debut":"2002-01-01",
-                        "fin":"2002-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "points":142.37
-                        }
-                     },
-                     {
-                        "annee":2001,
-                        "debut":"2001-01-01",
-                        "fin":"2001-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "points":140.16
-                        }
-                     },
-                     {
-                        "annee":2000,
-                        "debut":"2000-01-01",
-                        "fin":"2000-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "points":139.89
-                        }
-                     },
-                     {
-                        "annee":1999,
-                        "debut":"1999-01-01",
-                        "fin":"1999-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "points":145
-                        }
-                     },
-                     {
-                        "annee":1998,
-                        "debut":"1998-10-01",
-                        "fin":"1998-12-31",
-                        "specifiques":{
-                           "employeur":"Octo - Technology",
-                           "points":34.77
-                        }
-                     },
-                     {
-                        "annee":1998,
-                        "debut":"1998-01-01",
-                        "fin":"1998-09-30",
-                        "specifiques":{
-                           "employeur":"Sycomore",
-                           "points":101.20
-                        }
-                     },
-                     {
-                        "annee":1997,
-                        "debut":"1997-01-01",
-                        "fin":"1997-12-31",
-                        "specifiques":{
-                           "employeur":"Sycomore",
-                           "points":126.50
-                        }
-                     },
-                     {
-                        "annee":1996,
-                        "debut":"1996-01-01",
-                        "fin":"1996-12-31",
-                        "specifiques":{
-                           "employeur":"Sycomore",
-                           "points":118.32
-                        }
-                     },
-                     {
-                        "annee":1995,
-                        "debut":"1995-03-01",
-                        "fin":"1995-12-31",
-                        "specifiques":{
-                           "employeur":"Sycomore",
-                           "points":89.30
-                        }
-                     },
-                     {
-                        "annee":1994,
-                        "debut":"1994-04-01",
-                        "fin":"1994-09-30",
-                        "specifiques":{
-                           "employeur":"Schneider Electric Industries SAS",
-                           "points":27.50
-                        }
-                     }
-                  ]
-               }
-            ]
-         }
+    },
+    {
+      "id": 123456789012347,
+      "identification": {
+        "given_name": "Sonia",
+        "family_name": "Ramala",
+        "gender": "female",
+        "birthplace": "78490",
+        "birthcountry": "99100",
+        "birthdate": "1991-05-21"
       },
-      {
-         "id":123456789012346,
-         "identification":{
-            "given_name":"Pierre",
-            "family_name":"Ratinger",
-            "gender":"male",
-            "birthplace":"46201",
-            "birthcountry":"99100",
-            "birthdate":"1962-09-12"
-         },
-         "retraitedebase":{
-            "trimestrestotal":143,
-            "pointtotal":324,
-            "regimes":[
-               {
-                  "type":"Cnav",
-                  "nombretrimestre":143,
-                  "derniereannee":2015,
-                  "points":324,
-                  "details":[
-                     {
-                        "annee":2015,
-                        "debut":"2015-01-01",
-                        "fin":"2015-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "salaireannuel":35000,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2014,
-                        "debut":"2014-01-01",
-                        "fin":"2014-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "salaireannuel":35000,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2013,
-                        "debut":"2013-01-01",
-                        "fin":"2013-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "salaireannuel":35000,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2012,
-                        "debut":"2012-01-01",
-                        "fin":"2012-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "salaireannuel":35000,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2011,
-                        "debut":"2011-01-01",
-                        "fin":"2011-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "salaireannuel":35000,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2011,
-                        "debut":"2011-01-01",
-                        "fin":"2015-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "salaireannuel":35000,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2011,
-                        "debut":"2011-01-01",
-                        "fin":"2015-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "salaireannuel":35000,
-                           "trimestres":4
-                        }
-                     },
-                     {
-                        "annee":2011,
-                        "debut":"2011-01-01",
-                        "fin":"2015-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "salaireannuel":35000,
-                           "trimestres":4
-                        }
-                     }
-                  ]
-               }
-            ]
-         },
-         "retraitecomplementaire":{
-            "pointtotal":"3254",
-            "regimes":[
-               {
-                  "type":"ARRCO",
-                  "derniereannee":2015,
-                  "points":2958,
-                  "details":[
-                     {
-                        "annee":2015,
-                        "debut":"2015-01-01",
-                        "fin":"2015-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "points":110
-                        }
-                     },
-                     {
-                        "annee":2014,
-                        "debut":"2014-01-01",
-                        "fin":"2014-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "points":110
-                        }
-                     },
-                     {
-                        "annee":2013,
-                        "debut":"2013-01-01",
-                        "fin":"2013-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "points":110
-                        }
-                     },
-                     {
-                        "annee":2012,
-                        "debut":"2012-01-01",
-                        "fin":"2012-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "points":110
-                        }
-                     },
-                     {
-                        "annee":2011,
-                        "debut":"2011-01-01",
-                        "fin":"2011-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "points":110
-                        }
-                     },
-                     {
-                        "annee":2011,
-                        "debut":"2011-01-01",
-                        "fin":"2015-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "points":110
-                        }
-                     },
-                     {
-                        "annee":2011,
-                        "debut":"2011-01-01",
-                        "fin":"2015-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "points":110
-                        }
-                     },
-                     {
-                        "annee":2011,
-                        "debut":"2011-01-01",
-                        "fin":"2015-12-31",
-                        "specifiques":{
-                           "employeur":"IPNEOS",
-                           "points":110
-                        }
-                     }
-                  ]
-               }
-            ]
-         }
-      },
-      {
-         "id":123456789012347,
-         "identification":{
-            "given_name":"Sonia",
-            "family_name":"Ramala",
-            "gender":"female",
-            "birthplace":"78490",
-            "birthcountry":"99100",
-            "birthdate":"1991-05-21"
-         },
-         "retraitedebase":{
-            "trimestrestotal":2,
-            "pointtotal":4,
-            "regimes":[
-               {
-                  "type":"Cnav",
-                  "nombretrimestre":2,
-                  "derniereannee":2015,
-                  "points":4,
-                  "details":[
-                     {
-                        "annee":2015,
-                        "debut":"2015-02-01",
-                        "fin":"2015-06-31",
-                        "specifiques":{
-                           "employeur":"PASCAL COSTE COIFFURE",
-                           "salaireannuel":19000,
-                           "trimestres":1
-                        }
-                     },
-                     {
-                        "annee":2014,
-                        "debut":"2014-08-01",
-                        "fin":"2014-12-31",
-                        "specifiques":{
-                           "employeur":"DESIGN COIFFURE",
-                           "salaireannuel":22000,
-                           "trimestres":1
-                        }
-                     },
-                     {
-                        "annee":2014,
-                        "debut":"2014-02-01",
-                        "fin":"2014-06-31",
-                        "specifiques":{
-                           "employeur":"LES MOUSTACHES DU BERRY",
-                           "salaireannuel":12000,
-                           "trimestres":1
-                        }
-                     }
-                  ]
-               }
-            ]
-         },
-         "retraitecomplementaire":{
-            "trimestrestotal":"STRING",
-            "pointtotal":"STRING",
-            "regimes":[
-
-            ]
-         }
+      "compteheure": {
+        "solde": 10,
+        "credits": [
+          {
+            "valeur": 5,
+            "date": 2015,
+            "debut": "2015-02-01",
+            "fin": "2015-04-31",
+            "entreprise": {
+              "nom": "PASCAL COSTE COIFFURE",
+              "siret": "44033947100011"
+            }
+          },
+          {
+            "valeur": 5,
+            "date": 2014,
+            "debut": "2014-08-01",
+            "fin": "2014-12-31",
+            "entreprise": {
+              "nom": "DESIGN COIFFURE",
+              "siret": "81759148000014"
+            }
+          }
+        ],
+        "debits": []
       }
-   ],
-   "formation":[
-      {
-         "id":123456789012345,
-         "identification":{
-            "given_name":"Eric",
-            "family_name":"Mercier",
-            "gender":"male",
-            "birthplace":"49007",
-            "birthdepartment":"66",
-            "birthcountry":"99100",
-            "birthdate":"1981-04-21"
-         },
-         "compteheure":{
-            "solde":"STRING",
-            "credits":[
-               {
-                  "valeur":"STRING",
-                  "date":"STRING",
-                  "debut":"STRING",
-                  "fin":"STRING",
-                  "entreprise":{
-                     "nom":"STRING",
-                     "siret":"STRING"
-                  }
-               }
-            ],
-            "debits":[
-               {
-                  "date":"STRING",
-                  "satus":"STRING",
-                  "formation":{
-                     "nom":"STRING",
-                     "id":"STRING",
-                     "editeur":"STRING",
-                     "niveau":"STRING",
-                     "ape":"STRING"
-                  }
-               }
-            ]
-         }
+    }
+  ],
+  "penibilite": [
+    {
+      "id": 123456789012345,
+      "identification": {
+        "given_name": "Eric",
+        "family_name": "Mercier",
+        "gender": "male",
+        "birthplace": "49007",
+        "birthdepartment": "66",
+        "birthcountry": "99100",
+        "birthdate": "1981-04-21"
       },
-      {
-         "id":123456789012346,
-         "identification":{
-            "given_name":"Pierre",
-            "family_name":"Ratinger",
-            "gender":"male",
-            "birthplace":"46201",
-            "birthcountry":"99100",
-            "birthdate":"1962-09-12"
-         },
-         "compteheure":{
-            "solde":46,
-            "credits":[
-               {
-                  "valeur":24,
-                  "date":"2015",
-                  "debut":"2015-01-01",
-                  "fin":"2015-12-31",
-                  "entreprise":{
-                     "nom":"IPNEOS",
-                     "siret":"42483900900091"
-                  }
-               },
-               {
-                  "valeur":24,
-                  "date":"2014",
-                  "debut":"2014-01-01",
-                  "fin":"2014-12-31",
-                  "entreprise":{
-                     "nom":"IPNEOS",
-                     "siret":"42483900900091"
-                  }
-               },
-               {
-                  "valeur":24,
-                  "date":"2013",
-                  "debut":"2013-01-01",
-                  "fin":"2013-12-31",
-                  "entreprise":{
-                     "nom":"IPNEOS",
-                     "siret":"42483900900091"
-                  }
-               },
-               {
-                  "valeur":24,
-                  "date":"2012",
-                  "debut":"2012-01-01",
-                  "fin":"2012-12-31",
-                  "entreprise":{
-                     "nom":"IPNEOS",
-                     "siret":"42483900900091"
-                  }
-               }
-            ],
-            "debits":[
-               {
-                  "date":"2013",
-                  "debut":"2013-08-01",
-                  "fin":"2013-08-06",
-                  "satus":"done",
-                  "valeur":50,
-                  "formation":{
-                     "nom":"bureautique office",
-                     "id":"12345",
-                     "editeur":"CFORPRO",
-                     "niveau":4,
-                     "ape":[
-                        "62.01Z"
-                     ]
-                  }
-               }
-            ]
-         }
-      },
-      {
-         "id":123456789012347,
-         "identification":{
-            "given_name":"Sonia",
-            "family_name":"Ramala",
-            "gender":"female",
-            "birthplace":"78490",
-            "birthcountry":"99100",
-            "birthdate":"1991-05-21"
-         },
-         "compteheure":{
-            "solde":10,
-            "credits":[
-               {
-                  "valeur":5,
-                  "date":2015,
-                  "debut":"2015-02-01",
-                  "fin":"2015-04-31",
-                  "entreprise":{
-                     "nom":"PASCAL COSTE COIFFURE",
-                     "siret":"44033947100011"
-                  }
-               },
-               {
-                  "valeur":5,
-                  "date":2014,
-                  "debut":"2014-08-01",
-                  "fin":"2014-12-31",
-                  "entreprise":{
-                     "nom":"DESIGN COIFFURE",
-                     "siret":"81759148000014"
-                  }
-               }
-            ],
-            "debits":[
-
-            ]
-         }
+      "comptepoints": {
+        "solde": "STRING",
+        "credits": [],
+        "debits": []
       }
-   ],
-   "penibilite":[
-      {
-         "id":123456789012345,
-         "identification":{
-            "given_name":"Eric",
-            "family_name":"Mercier",
-            "gender":"male",
-            "birthplace":"49007",
-            "birthdepartment":"66",
-            "birthcountry":"99100",
-            "birthdate":"1981-04-21"
-         },
-         "comptepoints":{
-            "solde":"STRING",
-            "credits":[ ],
-            "debits":[ ]
-         }
+    },
+    {
+      "id": 123456789012346,
+      "identification": {
+        "given_name": "Pierre",
+        "family_name": "Ratinger",
+        "gender": "male",
+        "birthplace": "46201",
+        "birthcountry": "99100",
+        "birthdate": "1962-09-12"
       },
-      {
-         "id":123456789012346,
-         "identification":{
-            "given_name":"Pierre",
-            "family_name":"Ratinger",
-            "gender":"male",
-            "birthplace":"46201",
-            "birthcountry":"99100",
-            "birthdate":"1962-09-12"
-         },
-         "comptepoints":{
-            "solde":12,
-            "credits":[
-               {
-                  "valeur":6,
-                  "date":2016,
-                  "debut":"2016-01-01",
-                  "fin":"2016-12-01",
-                  "entreprise":{
-                     "nom":"JEROME BTP",
-                     "siret":"35013511700033"
-                  }
-               },
-               {
-                  "valeur":6,
-                  "date":2015,
-                  "debut":"2015-01-01",
-                  "fin":"2015-12-01",
-                  "entreprise":{
-                     "nom":"JEROME BTP",
-                     "siret":"35013511700033"
-                  }
-               }
-            ],
-            "debits":[]
-         }
+      "comptepoints": {
+        "solde": 12,
+        "credits": [
+          {
+            "valeur": 6,
+            "date": 2016,
+            "debut": "2016-01-01",
+            "fin": "2016-12-01",
+            "entreprise": {
+              "nom": "JEROME BTP",
+              "siret": "35013511700033"
+            }
+          },
+          {
+            "valeur": 6,
+            "date": 2015,
+            "debut": "2015-01-01",
+            "fin": "2015-12-01",
+            "entreprise": {
+              "nom": "JEROME BTP",
+              "siret": "35013511700033"
+            }
+          }
+        ],
+        "debits": []
+      }
+    },
+    {
+      "id": 123456789012347,
+      "identification": {
+        "given_name": "Sonia",
+        "family_name": "Ramala",
+        "gender": "female",
+        "birthplace": "78490",
+        "birthcountry": "99100",
+        "birthdate": "1991-05-21"
       },
-      {
-         "id":123456789012347,
-         "identification":{
-            "given_name":"Sonia",
-            "family_name":"Ramala",
-            "gender":"female",
-            "birthplace":"78490",
-            "birthcountry":"99100",
-            "birthdate":"1991-05-21"
-         },
-         "comptepoints":{
-            "solde":0,
-            "credits":[ ],
-            "debits":[ ]
-         }
+      "comptepoints": {
+        "solde": 0,
+        "credits": [],
+        "debits": []
       }
-   ],
-   "liste_formations":[
-      {
-         "id":"string",
-         "organisme":"string",
-         "public_vise":"string",
-         "code_offreinfo":"string",
-         "code_certifinfo":"string",
-         "niveau":0
-      }
-   ]
+    }
+  ],
+  "liste_formations": [
+    {
+      "id": "string",
+      "organisme": "string",
+      "public_vise": "string",
+      "code_offreinfo": "string",
+      "code_certifinfo": "string",
+      "niveau": 0
+    }
+  ]
 }
