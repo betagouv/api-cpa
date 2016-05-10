@@ -3,7 +3,7 @@
 const request = require('request')
 const StandardError = require('standard-error');
 const _ = require('lodash')
-
+var idpToNir = require('../services/idpToNirService');
 module.exports = FcController;
 
 
@@ -75,7 +75,7 @@ function FcController(options) {
               if(data.length > 1) {
                 return next(new StandardError("join failed", { code: 500 }))
               }
-              return res.json(data[0])
+              return res.json({startofnir: idpToNir(data[0].identification)})
             })
         })
     }
