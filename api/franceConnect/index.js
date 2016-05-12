@@ -12,5 +12,7 @@ module.exports = function(options){
   router.get('/formation', fcController.getFormation);
   router.get('/penibilite', fcController.getPenibilite);
 
+  router.put('/endOfNir', fcController.putEndOfNir);
+
   return router
 }
