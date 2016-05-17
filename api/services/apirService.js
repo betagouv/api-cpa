@@ -38,8 +38,7 @@ const apirService =
               let error500 = new StandardError("Server error", {code: 500});
               return reject(error500);
             }
-            let data = JSON.parse(body);
-            return resolve(data.endOfNir);
+            return resolve(JSON.parse(body));
           })
       });
   },
@@ -65,7 +64,7 @@ const apirService =
               let error500 = new StandardError("Server error", {code: 500});
               return reject(error500);
             }
-            return resolve(body.endOfNir);
+            return resolve(JSON.parse(body));
           })
       });
   }
