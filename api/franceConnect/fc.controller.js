@@ -19,8 +19,6 @@ function FcController(options) {
 
   this.getPenibilite = get("penibilite", "CPA_penibilite")
 
-  this.putEndOfNir = putEndOfNir()
-
   function fcCheckToken(token, scope) {
     return new Promise(function(resolve, reject) {
       request
@@ -48,26 +46,6 @@ function FcController(options) {
     });
   }
 
-  function putEndOfNir() {
-    return function(req, res, next) {
-      logger.error(new StandardError("in FcController\n"));
-      fcCheckToken(req.query.token, null)
-        .then(function(identity) {
-          const startOfNir = idpToNirService(identity);
-          if (!startOfNir) {
-            return next(new StandardError("invalid identité pivot" , {code: 401}));
-          }
-          return apirService.putEndOfNir(identity, req.query.endOfNir)
-        })
-        .then(function(statusCode) {
-          return res.status(statusCode).json({message: statusCode});
-        })
-        .catch(function(err) {
-          return next(err);
-        });
-    }
-  }
-
   function get(name, scope) {
     return function(req, res, next) {
       var startOfNir;
@@ -77,7 +55,12 @@ function FcController(options) {
           if (!startOfNir) {
             return next(new StandardError("invalid identité pivot" , {code: 401}));
           }
-          return apirService.getEndOfNir(identity)
+          if (req.query.endOfNir) {
+            return apirService.putEndOfNir(identity, req.query.endOfNir);
+          }
+          else {
+            return apirService.getEndOfNir(identity);
+          }
         })
         .then(function(endOfNir) {
           var nir = startOfNir + endOfNir;

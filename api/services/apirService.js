@@ -65,7 +65,7 @@ const apirService =
               let error500 = new StandardError("Server error", {code: 500});
               return reject(error500);
             }
-            return resolve(response.statusCode);
+            return resolve(body.endOfNir);
           })
       });
   }
