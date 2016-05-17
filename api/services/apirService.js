@@ -58,7 +58,7 @@ const apirService =
               return reject(err);
             }
             if (response.statusCode === 400) {
-              let error400 = new StandardError("Invalid hash", {code: 400});
+              let error400 = new StandardError(response.body.message, {code: 400});
               return reject(error400);
             }
             if (response.statusCode === 500) {
