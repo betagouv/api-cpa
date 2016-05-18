@@ -264,21 +264,13 @@
                   "horairehebdo":"35",
                   "type":"CDI",
                   "date":2015,
-                  "debut":"2015-12-01",
+                  "debut":"2011-01-01",
                   "fin":"2015-07-30",
                   "details":[
                      {
                         "date":2015,
                         "debut":"2015-12-01",
                         "fin":"2015-12-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2015,
-                        "debut":"2015-11-01",
-                        "fin":"2015-11-30",
                         "heurestravailles":166,
                         "salairebrut":2558,
                         "precomptepoleemploi":99
@@ -389,14 +381,6 @@
                      },
                      {
                         "date":2014,
-                        "debut":"2014-11-01",
-                        "fin":"2014-11-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2014,
                         "debut":"2014-10-01",
                         "fin":"2014-10-30",
                         "heurestravailles":166,
@@ -493,14 +477,6 @@
                      },
                      {
                         "date":2013,
-                        "debut":"2013-11-01",
-                        "fin":"2013-11-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2013,
                         "debut":"2013-10-01",
                         "fin":"2013-10-30",
                         "heurestravailles":166,
@@ -583,14 +559,6 @@
                         "date":2011,
                         "debut":"2011-12-01",
                         "fin":"2011-12-30",
-                        "heurestravailles":166,
-                        "salairebrut":2558,
-                        "precomptepoleemploi":99
-                     },
-                     {
-                        "date":2011,
-                        "debut":"2011-11-01",
-                        "fin":"2011-11-30",
                         "heurestravailles":166,
                         "salairebrut":2558,
                         "precomptepoleemploi":99
