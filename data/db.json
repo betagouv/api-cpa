@@ -1839,12 +1839,58 @@
                      "siret":"42483900900091"
                   }
                }
+               {
+                  "valeur":24,
+                  "date":"2010",
+                  "debut":"2010-01-01",
+                  "fin":"2010-12-31",
+                  "entreprise":{
+                     "nom":"IPNEOS",
+                     "siret":"42483900900091"
+                  }
+               }
+               {
+                  "valeur":20,
+                  "date":"2009",
+                  "debut":"2009-01-01",
+                  "fin":"2009-12-31",
+                  "entreprise":{
+                     "nom":"IPNEOS",
+                     "siret":"42483900900091"
+                  }
+               }
+               {
+                  "valeur":10,
+                  "date":"2008",
+                  "debut":"2008-01-01",
+                  "fin":"2008-06-31",
+                  "entreprise":{
+                     "nom":"IPNEOS",
+                     "siret":"42483900900091"
+                  }
+               }
             ],
             "debits":[
                {
                   "date":"2013",
                   "debut":"2013-08-01",
                   "fin":"2013-08-06",
+                  "satus":"done",
+                  "valeur":50,
+                  "formation":{
+                     "nom":"bureautique office",
+                     "id":"12345",
+                     "editeur":"CFORPRO",
+                     "niveau":4,
+                     "ape":[
+                        "62.01Z"
+                     ]
+                  }
+               }
+               {
+                  "date":"2011",
+                  "debut":"2011-08-01",
+                  "fin":"2011-08-06",
                   "satus":"done",
                   "valeur":50,
                   "formation":{
