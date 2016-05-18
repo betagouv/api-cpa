@@ -2022,13 +2022,42 @@
             "birthdepartment":"66",
             "birthcountry":"99100",
             "birthdate":"1981-04-21"
-         },
-         "comptepoints":{
-            "solde":"STRING",
-            "credits":[ ],
-            "debits":[ ]
-         }
-      },
+          },
+          "comptepoints":{
+             "solde":16,
+             "credits":[
+                {
+                   "valeur":6,
+                   "date":2016,
+                   "debut":"2016-01-01",
+                   "fin":"2016-12-01",
+                   "entreprise":{
+                      "nom":"JEROME BTP",
+                      "siret":"35013511700033"
+                   }
+                },
+                {
+                   "valeur":16,
+                   "date":2014,
+                   "debut":"2014-01-01",
+                   "fin":"2014-12-01",
+                   "entreprise":{
+                      "nom":"JEROME BTP",
+                      "siret":"35013511700033"
+                   }
+                }
+             ],
+             "debits":[
+               {
+                  "valeur":6,
+                  "date":2015,
+                  "debut":"2015-01-01",
+                  "fin":"2015-12-01",
+                  "type":"formation"
+               }
+             ]
+          }
+       },
       {
          "id":123456789012346,
          "identification":{
@@ -2040,18 +2069,8 @@
             "birthdate":"1962-09-12"
          },
          "comptepoints":{
-            "solde":12,
+            "solde":0,
             "credits":[
-               {
-                  "valeur":6,
-                  "date":2016,
-                  "debut":"2016-01-01",
-                  "fin":"2016-12-01",
-                  "entreprise":{
-                     "nom":"JEROME BTP",
-                     "siret":"35013511700033"
-                  }
-               },
                {
                   "valeur":6,
                   "date":2015,
@@ -2061,9 +2080,27 @@
                      "nom":"JEROME BTP",
                      "siret":"35013511700033"
                   }
+               },
+               {
+                  "valeur":10,
+                  "date":2014,
+                  "debut":"2014-01-01",
+                  "fin":"2014-12-01",
+                  "entreprise":{
+                     "nom":"JEROME BTP",
+                     "siret":"35013511700033"
+                  }
                }
             ],
-            "debits":[]
+            "debits":[
+              {
+                 "valeur":16,
+                 "date":2016,
+                 "debut":"2016-01-01",
+                 "fin":"2016-12-01",
+                 "type":"retraite avancé"
+              }
+            ]
          }
       },
       {
