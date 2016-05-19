@@ -2053,7 +2053,10 @@
                   "date":2015,
                   "debut":"2015-01-01",
                   "fin":"2015-12-01",
-                  "type":"formation"
+                  "type":"formation",
+                  "editeur":{
+                    "nom":"42"
+                  }
                }
              ]
           }
@@ -2098,7 +2101,10 @@
                  "date":2016,
                  "debut":"2016-01-01",
                  "fin":"2016-12-01",
-                 "type":"retraite avancé"
+                 "type":"retraite avancé",
+                 "editeur":{
+                   "nom":"CNAV"
+                 }
               }
             ]
          }
