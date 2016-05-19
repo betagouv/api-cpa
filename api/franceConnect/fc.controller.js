@@ -49,23 +49,30 @@ function FcController(options) {
   function get(name, scope) {
     return function(req, res, next) {
       var startOfNir;
+      var identity;
       fcCheckToken(req.query.token, scope)
-        .then(function(identity) {
+        .then(function(identityChecked) {
+          identity = identityChecked;
           startOfNir = idpToNirService(identity);
           if (!startOfNir) {
             return next(new StandardError("invalid identité pivot" , {code: 401}));
           }
-          if (req.query.endOfNir) {
-            return apirService.putEndOfNir(identity, req.query.endOfNir);
+          if (req.query.devMode === "WITH_ENDOFNIR") {
+            if (req.query.endOfNir) {
+              return apirService.putEndOfNir(identity, req.query.endOfNir);
+            }
+            else {
+              return apirService.getEndOfNir(identity);
+            }
           }
           else {
-            return apirService.getEndOfNir(identity);
+            return new Promise(function(resolve) {
+              resolve(null);
+            };
           }
         })
         .then(function(endOfNir) {
           var nir = startOfNir + endOfNir;
-          return res.json({nir: nir});
-
           request
             .get({
               url: options.dataHost + '/' + name,
@@ -81,7 +88,7 @@ function FcController(options) {
             }, (err, response, body) => {
               if(err) {
                 logger.error(err);
-                next(new StandardError("An error as occured", {code: 500}))
+                next(new StandardError("An error has occured", {code: 500}))
               }
               let data = JSON.parse(body)
               //console.log('identity', identity)
@@ -100,8 +107,7 @@ function FcController(options) {
               if (data.length > 1) {
                 return next(new StandardError("join failed", {code: 500}))
               }
-
-              //return res.json({startofnir: idpToNir(data[0].identification)})
+                return res.json(data[0])
             })
         })
         .catch(function(err) {
