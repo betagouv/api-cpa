@@ -68,7 +68,7 @@ function FcController(options) {
           else {
             return new Promise(function(resolve) {
               resolve(null);
-            };
+            });
           }
         })
         .then(function(endOfNir) {
