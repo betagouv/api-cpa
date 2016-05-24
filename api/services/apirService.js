@@ -21,7 +21,7 @@ const apirService =
     return new Promise(function(resolve, reject) {
       request
         .get({
-            url: "http://127.1:5000/v1/endOfNir/" + idpHash
+            url: "http://apir.herokuapp.com/v1/endOfNir/" + idpHash
           }, (err, response, body) => {
             if(err) {
               return reject(err);
@@ -49,7 +49,7 @@ const apirService =
     return new Promise(function(resolve, reject) {
       request
         .put({
-            url: "http://127.1:5000/v1/endOfNir/" + idpHash,
+            url: "http://apir.herokuapp.com/v1/endOfNir/" + idpHash,
             body: { endOfNir: endOfNir },
             json: true
           }, (err, response, body) => {
